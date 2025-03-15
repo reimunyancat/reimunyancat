@@ -13,7 +13,7 @@ I am a student learning programming.
 
 
 ## Connect with Me
-[![Email Badge](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](lasco647@gmail.com)
+[![Email Badge](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lasco647@gmail.com)
 <!--
 **reimunyancat/reimunyancat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

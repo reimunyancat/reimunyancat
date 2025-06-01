@@ -1,32 +1,58 @@
-![Animated Header](https://lh4.googleusercontent.com/proxy/iJ2ppLixekrcs_OjdgAkeVe-HVxe6yAjNyn08Hxl0cXGYQ0s7e0bvYIwTQRy1u0mFWkr1fX0ZpEB-z95L70UURzcKE4eQPK1wXUieBpA7cteALgS-Dnd_bS5QiC4TiJl-2kLmuRbunDVCNnUTtVBrQJk9WYjt8pBq32ASEvo8q1FxJunvUQKNTII7Ap6tQyLkEHo8a7DrMFDzsz8MZCwuQsCGCdp)
+<!-- 헤더 이미지 -->
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/proxy/iJ2ppLixekrcs_OjdgAkeVe-HVxe6yAjNyn08Hxl0cXGYQ0s7e0bvYIwTQRy1u0mFWkr1fX0ZpEB-z95L70UURzcKE4eQPK1wXUieBpA7cteALgS-Dnd_bS5QiC4TiJl-2kLmuRbunDVCNnUTtVBrQJk9WYjt8pBq32ASEvo8q1FxJunvUQKNTII7Ap6tQyLkEHo8a7DrMFDzsz8MZCwuQsCGCdp" alt="Animated Header" width="100%" />
+</p>
 
-## Hi, I'm reimunyancat!
+<h1 align="center">Hi, I'm reimunyancat! 🐾</h1>
+<p align="center">
+  <b>Student | Developer | Cat Lover</b>
+</p>
 
-I am a student learning programming.
+---
 
+## 🧑‍💻 About Me
 
-## GitHub Stats
-<!-- GitHub-readme-stats 카드 (reimunyancat을 자신의 GitHub 아이디로 변경) -->
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=radical)](https://github.com/reimunyancat)
+- 🌱 I’m currently learning <b>C++, Python, JS</b>
+- 🎵 I love making fun projects
+- 💡 Always curious and eager to learn new things!
 
-<!-- Top Languages 카드 -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=radical&layout=compact)](https://github.com/reimunyancat)
+---
 
+## 🚀 Tech Stack
 
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+</p>
 
-## Connect with Me
-[![Email Badge](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:lasco647@gmail.com)
-<!--
-**reimunyancat/reimunyancat** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 📊 GitHub Stats
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=radical&layout=compact" alt="Top Langs" />
+</p>
+
+---
+
+## 📫 Connect with Me
+
+<p>
+  <a href="mailto:lasco647@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email Badge"/>
+  </a>
+</p>
+
+---
+
+<details>
+  <summary>✨ Fun Facts</summary>
+  <ul>
+    <li>🔭 I’m currently working on: <b></b></li>
+  </ul>
+</details>

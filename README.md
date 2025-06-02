@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=rainbow&height=140&section=header&text=Welcome!%20%F0%9F%90%BE%F0%9F%8C%88&fontSize=45&fontColor=ffffff&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f4c81,7f8fa6,bdc3c7&height=140&section=header&text=Welcome!%20%F0%9F%90%B8%F0%9F%90%BE&fontSize=45&fontColor=000000&animation=twinkling&desc=Russian+Blue+Cat&descAlign=60&descAlignY=70"/>
 </p>
 
 <h1 align="center">
@@ -70,5 +70,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=rainbow&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%90%BE%F0%9F%8C%88&fontSize=35&fontColor=ffffff&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f4c81,7f8fa6,bdc3c7&height=140&section=footer&text=Thanks+for+visiting!+%F0%9F%90%B8%F0%9F%90%BE&fontSize=35&fontColor=000000&animation=twinkling&desc=Russian+Blue+Cat&descAlign=60&descAlignY=70"/>
 </p>

@@ -14,7 +14,6 @@
 
 - 🌱 I’m currently learning <b>C++, Python, JS</b>
 - 🎵 I love making fun projects
-- 💡 Always curious and eager to learn new things!
 
 ---
 

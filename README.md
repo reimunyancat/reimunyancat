@@ -108,7 +108,7 @@
 <div align="center">
 
 <!--START_SECTION:activity-->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=YOUR_REPO_NAME&theme=blueberry&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=blueberry&hide_border=true" />
 
 _📈 Check back soon for updates on my latest projects!_
 

@@ -1,18 +1,22 @@
 <!-- 헤더 이미지 -->
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/proxy/iJ2ppLixekrcs_OjdgAkeVe-HVxe6yAjNyn08Hxl0cXGYQ0s7e0bvYIwTQRy1u0mFWkr1fX0ZpEB-z95L70UURzcKE4eQPK1wXUieBpA7cteALgS-Dnd_bS5QiC4TiJl-2kLmuRbunDVCNnUTtVBrQJk9WYjt8pBq32ASEvo8q1FxJunvUQKNTII7Ap6tQyLkEHo8a7DrMFDzsz8MZCwuQsCGCdp" alt="Animated Header" width="100%" />
+</p>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=reimunyancat&fontSize=80&fontColor=fff&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=FF6B6B&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer+%7C+🐱+Cat+Lover;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=667EEA&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer+%7C+🐱+Cat+Lover;)](https://git.io/typing-svg)
 
 </div>
 
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=ff6b6b&style=for-the-badge&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=ff6b6b&labelColor=1a1a1a)](https://github.com/reimunyancat)
+![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=667eea&style=for-the-badge&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=764ba2&labelColor=2d3748)](https://github.com/reimunyancat)
 
 </div>
 
@@ -22,7 +26,7 @@
   
 ### 🌟 Quick Stats
   
-<img src="https://github-profile-trophy.vercel.app/?username=reimunyancat&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=reimunyancat&theme=discord&no-frame=true&no-bg=false&margin-w=4&column=7" />
 
 </div>
 
@@ -88,12 +92,12 @@
 
 <div align="center">
   
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=reimunyancat&theme=tokyonight&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=blueberry&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=reimunyancat&theme=blueberry&hide_border=true" />
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=tokyonight&layout=compact&hide_border=true&langs_count=8" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=blueberry&layout=compact&hide_border=true&langs_count=8" />
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=tokyo-night&hide_border=true&area=true" />
+<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=667eea&line=764ba2&point=ffffff" />
 
 </div>
 
@@ -104,7 +108,7 @@
 <div align="center">
 
 <!--START_SECTION:activity-->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=YOUR_REPO_NAME&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=YOUR_REPO_NAME&theme=blueberry&hide_border=true" />
 
 _📈 Check back soon for updates on my latest projects!_
 
@@ -160,6 +164,6 @@ _📈 Check back soon for updates on my latest projects!_
   
 **Thanks for visiting my profile! 🚀**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"/>
 
 </div>

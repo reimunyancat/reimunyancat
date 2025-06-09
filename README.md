@@ -40,7 +40,7 @@
 <tr>
   <td>🌱</td>
   <td><b>Currently Learning</b></td>
-  <td>C++, Python, JavaScript</td>
+  <td>C++, Python, TypeScript</td>
 </tr>
 <tr>
   <td>🎵</td>
@@ -55,7 +55,7 @@
 <tr>
   <td>🔭</td>
   <td><b>Current Focus</b></td>
-  <td>Open source contributions & learning new technologies</td>
+  <td>learning new technologies</td>
 </tr>
 </table>
 

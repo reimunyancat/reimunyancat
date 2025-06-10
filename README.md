@@ -104,13 +104,13 @@
 
 <div align="center">
 
-![3D Contributions](https://github-profile-3d-contrib.vercel.app/api?username=reimunyancat&theme=github)
+![3D Contributions](https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/profile-3d-contrib/profile-green-animate.svg)
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" width="100%" alt="Snake eating contributions"/>
+<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake.svg" width="100%" alt="Snake eating contributions"/>
 
 </div>
 

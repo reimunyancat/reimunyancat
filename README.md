@@ -91,7 +91,7 @@
 ### 🌐 Frameworks & Libraries
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,flask" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express" />
 </p>
 
 </div>

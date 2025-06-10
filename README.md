@@ -152,31 +152,43 @@
 </div>
 
 <!--START_SECTION:structure-->
-
 ```mermaid
 graph TD
-  A[reimunyancat]
+  A[👤 reimunyancat] --> B[📁 Profile]
+  B --> C[📖 README.md]
+  B --> D[🎨 Assets]
+  B --> E[⚡ Workflows]
 
-  A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📝 wetube-clone]
+  A --> CAT0[📁 Other Projects]
+  CAT0 --> CAT0_0[📚 reimunyancat]
+  CAT0 --> CAT0_1[📚 Artifact]
+  CAT0 --> CAT0_2[📚 yt-downloader]
+  CAT0 --> CAT0_3[📚 selenium]
+  CAT0 --> CAT0_4[📚 jet-fighter-detection]
+  CAT0 --> CAT0_5[📚 baekjoon]
+  CAT0 --> CAT0_6[📚 Flappy-bird]
+  CAT0 --> CAT0_7[📚 discord_bot]
 
   A --> CAT1[🎮 Games & Fun]
-  CAT1 --> CAT1_0[📝 badapple-with-ascii]
-  CAT1 --> CAT1_1[📝 kurukuru-with-ascii]
+  CAT1 --> CAT1_0[📚 badapple-with-ascii]
+  CAT1 --> CAT1_1[📚 kurukuru-with-ascii]
 
   A --> CAT2[🌐 Web Development]
-  CAT2 --> CAT2_0[📝 wetube-clone]
+  CAT2 --> CAT2_0[📚 wetube-clone]
 
   A --> CAT3[🛠️ Tools & Utilities]
-  CAT3 --> CAT3_0[📝 V3-ad-closer]
+  CAT3 --> CAT3_0[📚 V3-ad-closer]
 
-  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
-  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
+  style B fill:#41d885,stroke:#2ed573,stroke-width:3px,color:#fff
+  style C fill:#4ecdc4,stroke:#45b7b8,stroke-width:2px,color:#fff
+  style D fill:#6c5ce7,stroke:#a29bfe,stroke-width:2px,color:#fff
+  style E fill:#fd79a8,stroke:#fdcb6e,stroke-width:2px,color:#fff
+  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
-
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

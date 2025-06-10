@@ -50,31 +50,139 @@ jobs:
               const latest = filtered.slice(0, 6);
               
               let readme = fs.readFileSync('README.md', 'utf8');
-              
-              // Generate repository cards
+                // Generate repository cards with dark mode support
               let cards = '';
               for (let i = 0; i < latest.length; i += 2) {
                 cards += '  <tr>\n';
                 if (latest[i]) {
                   const repoUrl = latest[i].html_url;
                   const repoName = latest[i].name;
-                  cards += `    <td><a href="${repoUrl}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true"></a></td>\n`;
+                  cards += `    <td><a href="${repoUrl}">\n`;
+                  cards += `      <picture>\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=dark&hide_border=true">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true">\n`;
+                  cards += `      </picture>\n`;
+                  cards += `    </a></td>\n`;
                 }
                 if (latest[i + 1]) {
                   const repoUrl = latest[i + 1].html_url;
                   const repoName = latest[i + 1].name;
-                  cards += `    <td><a href="${repoUrl}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true"></a></td>\n`;
-                } else {
+                  cards += `    <td><a href="${repoUrl}">\n`;
+                  cards += `      <picture>\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=dark&hide_border=true">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true">\n`;
+                  cards += `      </picture>\n`;
+                  cards += `    </a></td>\n`;
+                } else if (latest[i]) {
                   cards += '    <td align="center"><strong style="color:#00b894;">🚧 More Coming Soon! 🚧</strong></td>\n';
                 }
-                cards += '  </tr>\n';
+                cards += '  </tr>\n';              }
+              
+              // Classify repositories by type
+              function classifyRepo(repo) {
+                const name = repo.name.toLowerCase();
+                const description = (repo.description || '').toLowerCase();
+                const language = repo.language || 'Unknown';
+                
+                // Web Development
+                if (name.includes('web') || name.includes('site') || name.includes('clone') || 
+                    description.includes('web') || description.includes('website') || 
+                    ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'React', 'Vue', 'Angular'].includes(language)) {
+                  return { category: 'Web Development', icon: '🌐', color: '#61dafb' };
+                }
+                
+                // Tools & Utilities
+                if (name.includes('tool') || name.includes('util') || name.includes('script') || 
+                    name.includes('closer') || name.includes('helper') || 
+                    description.includes('tool') || description.includes('utility')) {
+                  return { category: 'Tools & Utilities', icon: '🛠️', color: '#ffa500' };
+                }
+                
+                // Games & Entertainment
+                if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || 
+                    name.includes('kurukuru') || description.includes('game') || description.includes('entertainment')) {
+                  return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
+                }
+                
+                // AI & Machine Learning
+                if (name.includes('ai') || name.includes('ml') || name.includes('neural') || 
+                    description.includes('machine learning') || description.includes('artificial intelligence')) {
+                  return { category: 'AI & ML', icon: '🤖', color: '#9c88ff' };
+                }
+                
+                // Desktop Applications
+                if (['C++', 'C#', 'Java', 'Python'].includes(language) && 
+                    (description.includes('app') || description.includes('desktop'))) {
+                  return { category: 'Desktop Apps', icon: '💻', color: '#4ecdc4' };
+                }
+                
+                // Configuration & Dotfiles
+                if (name.includes('config') || name.includes('dotfiles') || name.includes('setup')) {
+                  return { category: 'Configuration', icon: '⚙️', color: '#95a5a6' };
+                }
+                
+                // Default category
+                return { category: 'Other Projects', icon: '📁', color: '#00b894' };
               }
               
-              // Update README
+              // Generate repository structure
+              const categories = {};
+              filtered.forEach(repo => {
+                const classification = classifyRepo(repo);
+                if (!categories[classification.category]) {
+                  categories[classification.category] = {
+                    ...classification,
+                    repos: []
+                  };
+                }
+                categories[classification.category].repos.push(repo);
+              });
+              
+              // Generate Mermaid diagram
+              let mermaidDiagram = 'graph TD\n';
+              mermaidDiagram += '  A[reimunyancat] --> B[📁 Profile/]\n';
+              mermaidDiagram += '  B --> C[🖼️ README.md]\n';
+              mermaidDiagram += '  B --> D[🎨 Assets/]\n';
+              mermaidDiagram += '  B --> E[📊 Workflows/]\n\n';
+              
+              let nodeIndex = 0;
+              Object.entries(categories).forEach(([categoryName, data]) => {
+                const categoryId = `CAT${nodeIndex}`;
+                mermaidDiagram += `  A --> ${categoryId}[${data.icon} ${categoryName}]\n`;
+                
+                data.repos.slice(0, 4).forEach((repo, i) => {
+                  const repoId = `${categoryId}_${i}`;
+                  mermaidDiagram += `  ${categoryId} --> ${repoId}[📝 ${repo.name}]\n`;
+                });
+                
+                if (data.repos.length > 4) {
+                  mermaidDiagram += `  ${categoryId} --> ${categoryId}_MORE[... +${data.repos.length - 4} more]\n`;
+                }
+                
+                mermaidDiagram += '\n';
+                nodeIndex++;
+              });
+              
+              // Add styling
+              mermaidDiagram += '  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff\n';
+              mermaidDiagram += '  style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff\n';
+              
+              Object.entries(categories).forEach(([_, data], i) => {
+                mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;
+              });
+              
+              // Update README sections
               const repoSection = `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`;
               readme = readme.replace(
                 /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
                 repoSection
+              );
+              
+              // Update repository structure
+              const structureSection = `<!--START_SECTION:structure-->\n\`\`\`mermaid\n${mermaidDiagram}\`\`\`\n<!--END_SECTION:structure-->`;
+              readme = readme.replace(
+                /<!--START_SECTION:structure-->[\s\S]*?<!--END_SECTION:structure-->/,
+                structureSection
               );
               
               fs.writeFileSync('README.md', readme);

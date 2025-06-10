@@ -133,16 +133,46 @@
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/reimunyancat"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true"></a></td>
-    <td><a href="https://github.com/reimunyancat/badapple-with-ascii"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/reimunyancat">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/reimunyancat/wetube-clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true"></a></td>
-    <td><a href="https://github.com/reimunyancat/Artifact"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/wetube-clone">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/Artifact">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/reimunyancat/V3-ad-closer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=V3-ad-closer&theme=vue&hide_border=true"></a></td>
-    <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/V3-ad-closer">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=V3-ad-closer&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=V3-ad-closer&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
   </tr>
 </table>
 <!--END_SECTION:repos-->
@@ -151,7 +181,10 @@
 
 <div align="center">
   
-![Latest Activity](https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+  <img alt="Latest Activity" src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+</picture>
 
 ---
 
@@ -178,6 +211,11 @@
 
 ## 🏗️ Repository Structure
 
+> [!NOTE]  
+> This is the tree-structured layout of my profile and repositories, automatically updated to show my latest projects categorized by type!
+
+<!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[reimunyancat] --> B[📁 Profile/]
@@ -185,15 +223,29 @@ graph TD
   B --> D[🎨 Assets/]
   B --> E[📊 Workflows/]
 
-  A --> REPO0[📝 Repository 1]
-  A --> REPO1[📝 Repository 2]
-  A --> REPO2[📝 Repository 3]
-  A --> REPO3[📝 Repository 4]
-  A --> REPO4[📝 Repository 5]
-  A --> REPO5[📝 Repository 6]
+  A --> CAT0[🌐 Web Development]
+  CAT0 --> CAT0_0[📝 wetube-clone]
+
+  A --> CAT1[🛠️ Tools & Utilities]
+  CAT1 --> CAT1_0[📝 V3-ad-closer]
+
+  A --> CAT2[🎮 Games & Fun]
+  CAT2 --> CAT2_0[📝 badapple-with-ascii]
+  CAT2 --> CAT2_1[📝 kurukuru-with-ascii]
+
+  A --> CAT3[📁 Other Projects]
+  CAT3 --> CAT3_0[📝 reimunyancat]
+  CAT3 --> CAT3_1[📝 Artifact]
+
   style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
   style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff
+  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
+<!--END_SECTION:structure-->
 
 <div align="center">
 

@@ -76,22 +76,28 @@
   <img src="https://skillicons.dev/icons?i=cpp,python,javascript,typescript" />
 </p>
 
+### 🌐 Frameworks & Libraries
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express" />
+</p>
+
 ### 🛠️ Development Tools
 
 <p>
   <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,git,github" />
 </p>
 
-### 🖥️ Operating Systems & Databases
+### 🗃️ Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,arch,ubuntu,windows,mongodb" />
+  <img src="https://skillicons.dev/icons?i=mongodb" />
 </p>
 
-### 🌐 Frameworks & Libraries
+### 🖥️ Operating Systems
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=linux,arch,ubuntu,windows" />
 </p>
 
 </div>
@@ -151,6 +157,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat] --> B[📁 Profile]
@@ -200,6 +207,7 @@ graph TD
   style CAT6 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT7 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

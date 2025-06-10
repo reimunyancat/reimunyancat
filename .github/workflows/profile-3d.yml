@@ -10,33 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+
+      - name: Generate 3D Profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: reimunyancat
         with:
           USERNAME: reimunyancat
-          SETTING_JSON: |
-            {
-              "type": "normal",
-              "backgroundColor": "#0d1117",
-              "foregroundColor": "#00b894",
-              "strongColor": "#55a3ff",
-              "weakColor": "#2f3542",
-              "radarColor": "#41d885",
-              "growingAnimation": true,
-              "contribColors": [
-                "#161b22",
-                "#00b894",
-                "#2ed573",
-                "#41d885",
-                "#7bed9f"
-              ]
-            }
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add profile-3d-contrib/
+          git diff --staged --quiet || git commit -m "🎯 Update 3D profile"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          target_branch: output
-          build_dir: profile-3d-contrib
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

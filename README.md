@@ -104,7 +104,7 @@
 
 <div align="center">
 
-![3D Contributions](https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/profile-3d-contrib/profile-green-animate.svg)
+![3D Contributions](https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green-animate.svg)
 
 </div>
 

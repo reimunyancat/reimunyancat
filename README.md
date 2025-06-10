@@ -160,10 +160,7 @@
 
 ```mermaid
 graph TD
-  A[👤 reimunyancat] --> B[📁 Profile]
-  B --> C[📖 README.md]
-  B --> D[🎨 Assets]
-  B --> E[⚡ Workflows]
+  A[👤 reimunyancat]
 
   A --> CAT0[⚙️ Profile & Config]
   CAT0 --> CAT0_0[📚 reimunyancat]
@@ -194,10 +191,6 @@ graph TD
   CAT7 --> CAT7_0[📚 discord_bot]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style B fill:#41d885,stroke:#2ed573,stroke-width:3px,color:#fff
-  style C fill:#4ecdc4,stroke:#45b7b8,stroke-width:2px,color:#fff
-  style D fill:#6c5ce7,stroke:#a29bfe,stroke-width:2px,color:#fff
-  style E fill:#fd79a8,stroke:#fdcb6e,stroke-width:2px,color:#fff
   style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT1 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff

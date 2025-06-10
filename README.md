@@ -9,7 +9,7 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=1000&pause=500&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=10&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer)](https://git.io/typing-svg)
 
 </div>
 
@@ -152,6 +152,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat] --> B[📁 Profile]
@@ -189,6 +190,7 @@ graph TD
   style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

@@ -87,48 +87,78 @@ jobs:
                 latestCard += `  </picture>\n`;
                 latestCard += `</a>`;
               }
-              
-              // Classify repositories by type
+                // Classify repositories by type
               function classifyRepo(repo) {
                 const name = repo.name.toLowerCase();
                 const description = (repo.description || '').toLowerCase();
                 const language = repo.language || 'Unknown';
                 
+                // Games & Entertainment (우선순위 높음)
+                if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || 
+                    name.includes('kurukuru') || name.includes('flappy') || name.includes('bird') ||
+                    description.includes('game') || description.includes('entertainment') ||
+                    description.includes('ascii')) {
+                  return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
+                }
+                
                 // Web Development
                 if (name.includes('web') || name.includes('site') || name.includes('clone') || 
+                    name.includes('wetube') || name.includes('youtube') ||
                     description.includes('web') || description.includes('website') || 
-                    ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'React', 'Vue', 'Angular'].includes(language)) {
+                    ['JavaScript', 'TypeScript', 'HTML', 'CSS'].includes(language)) {
                   return { category: 'Web Development', icon: '🌐', color: '#61dafb' };
                 }
                 
                 // Tools & Utilities
                 if (name.includes('tool') || name.includes('util') || name.includes('script') || 
-                    name.includes('closer') || name.includes('helper') || 
-                    description.includes('tool') || description.includes('utility')) {
+                    name.includes('closer') || name.includes('helper') || name.includes('downloader') ||
+                    name.includes('selenium') || name.includes('v3') ||
+                    description.includes('tool') || description.includes('utility') ||
+                    description.includes('automation')) {
                   return { category: 'Tools & Utilities', icon: '🛠️', color: '#ffa500' };
-                }
-                
-                // Games & Entertainment
-                if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || 
-                    name.includes('kurukuru') || description.includes('game') || description.includes('entertainment')) {
-                  return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
                 }
                 
                 // AI & Machine Learning
                 if (name.includes('ai') || name.includes('ml') || name.includes('neural') || 
-                    description.includes('machine learning') || description.includes('artificial intelligence')) {
+                    name.includes('detection') || name.includes('fighter') ||
+                    description.includes('machine learning') || description.includes('artificial intelligence') ||
+                    description.includes('detection') || description.includes('ai')) {
                   return { category: 'AI & ML', icon: '🤖', color: '#9c88ff' };
                 }
                 
+                // Algorithm & Problem Solving
+                if (name.includes('baekjoon') || name.includes('algorithm') || name.includes('coding') ||
+                    name.includes('leetcode') || name.includes('programmers') ||
+                    description.includes('algorithm') || description.includes('problem solving')) {
+                  return { category: 'Algorithm & PS', icon: '🧮', color: '#e74c3c' };
+                }
+                
+                // Bot Development
+                if (name.includes('bot') || name.includes('discord') ||
+                    description.includes('bot') || description.includes('discord')) {
+                  return { category: 'Bot Development', icon: '🤖', color: '#7289da' };
+                }
+                
                 // Desktop Applications
-                if (['C++', 'C#', 'Java', 'Python'].includes(language) && 
+                if (['C++', 'C#', 'Java'].includes(language) && 
                     (description.includes('app') || description.includes('desktop'))) {
                   return { category: 'Desktop Apps', icon: '💻', color: '#4ecdc4' };
                 }
                 
-                // Configuration & Dotfiles
-                if (name.includes('config') || name.includes('dotfiles') || name.includes('setup')) {
-                  return { category: 'Configuration', icon: '⚙️', color: '#95a5a6' };
+                // Configuration & Profile
+                if (name.includes('config') || name.includes('dotfiles') || name.includes('setup') ||
+                    name === 'reimunyancat' || description.includes('profile')) {
+                  return { category: 'Profile & Config', icon: '⚙️', color: '#95a5a6' };
+                }
+                
+                // Python Projects
+                if (language === 'Python') {
+                  return { category: 'Python Projects', icon: '🐍', color: '#3776ab' };
+                }
+                
+                // JavaScript/TypeScript Projects
+                if (['JavaScript', 'TypeScript'].includes(language)) {
+                  return { category: 'JS/TS Projects', icon: '💛', color: '#f7df1e' };
                 }
                 
                 // Default category

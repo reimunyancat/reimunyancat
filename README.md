@@ -215,7 +215,6 @@
 > This is the tree-structured layout of my profile and repositories, automatically updated to show my latest projects categorized by type!
 
 <!--START_SECTION:structure-->
-
 ```mermaid
 graph TD
   A[reimunyancat] --> B[📁 Profile/]
@@ -223,28 +222,30 @@ graph TD
   B --> D[🎨 Assets/]
   B --> E[📊 Workflows/]
 
-  A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📝 wetube-clone]
+  A --> CAT0[📁 Other Projects]
+  CAT0 --> CAT0_0[📝 reimunyancat]
+  CAT0 --> CAT0_1[📝 Artifact]
+  CAT0 --> CAT0_2[📝 yt-downloader]
+  CAT0 --> CAT0_3[📝 selenium]
+  CAT0 --> CAT0_MORE[... +4 more]
 
-  A --> CAT1[🛠️ Tools & Utilities]
-  CAT1 --> CAT1_0[📝 V3-ad-closer]
+  A --> CAT1[🎮 Games & Fun]
+  CAT1 --> CAT1_0[📝 badapple-with-ascii]
+  CAT1 --> CAT1_1[📝 kurukuru-with-ascii]
 
-  A --> CAT2[🎮 Games & Fun]
-  CAT2 --> CAT2_0[📝 badapple-with-ascii]
-  CAT2 --> CAT2_1[📝 kurukuru-with-ascii]
+  A --> CAT2[🌐 Web Development]
+  CAT2 --> CAT2_0[📝 wetube-clone]
 
-  A --> CAT3[📁 Other Projects]
-  CAT3 --> CAT3_0[📝 reimunyancat]
-  CAT3 --> CAT3_1[📝 Artifact]
+  A --> CAT3[🛠️ Tools & Utilities]
+  CAT3 --> CAT3_0[📝 V3-ad-closer]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
   style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff
-  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
-
 <!--END_SECTION:structure-->
 
 <div align="center">

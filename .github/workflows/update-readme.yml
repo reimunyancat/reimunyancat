@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *" # Every hour
   workflow_dispatch:
   push:
     branches: [main]
@@ -41,13 +41,12 @@ jobs:
 
           (async () => {
             try {
-              const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=50', {
+              const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=100', {
                 'Authorization': 'token ' + process.env.GITHUB_TOKEN,
                 'User-Agent': 'GitHub-Actions'
-              });
-              
-              const filtered = repos.filter(r => !r.fork && !r.private);
+              });              const filtered = repos.filter(r => !r.fork && !r.private);
               const latest = filtered.slice(0, 6);
+              const recentlyUpdated = filtered.slice(0, 1); // For Latest Activity section (only 1 most recent)
               
               let readme = fs.readFileSync('README.md', 'utf8');
                 // Generate repository cards with dark mode support
@@ -77,6 +76,17 @@ jobs:
                   cards += '    <td align="center"><strong style="color:#00b894;">🚧 More Coming Soon! 🚧</strong></td>\n';
                 }
                 cards += '  </tr>\n';              }
+                // Generate Latest Activity card (only 1 most recent)
+              let latestCard = '';
+              if (recentlyUpdated.length > 0) {
+                const repo = recentlyUpdated[0];
+                latestCard += `<a href="${repo.html_url}">\n`;
+                latestCard += `  <picture>\n`;
+                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&theme=dark&hide_border=true">\n`;
+                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&theme=vue&hide_border=true">\n`;
+                latestCard += `  </picture>\n`;
+                latestCard += `</a>`;
+              }
               
               // Classify repositories by type
               function classifyRepo(repo) {
@@ -124,8 +134,7 @@ jobs:
                 // Default category
                 return { category: 'Other Projects', icon: '📁', color: '#00b894' };
               }
-              
-              // Generate repository structure
+                // Generate repository structure
               const categories = {};
               filtered.forEach(repo => {
                 const classification = classifyRepo(repo);
@@ -140,42 +149,45 @@ jobs:
               
               // Generate Mermaid diagram
               let mermaidDiagram = 'graph TD\n';
-              mermaidDiagram += '  A[reimunyancat] --> B[📁 Profile/]\n';
-              mermaidDiagram += '  B --> C[🖼️ README.md]\n';
-              mermaidDiagram += '  B --> D[🎨 Assets/]\n';
-              mermaidDiagram += '  B --> E[📊 Workflows/]\n\n';
+              mermaidDiagram += '  A[👤 reimunyancat] --> B[📁 Profile]\n';
+              mermaidDiagram += '  B --> C[📖 README.md]\n';
+              mermaidDiagram += '  B --> D[🎨 Assets]\n';
+              mermaidDiagram += '  B --> E[⚡ Workflows]\n\n';
               
               let nodeIndex = 0;
               Object.entries(categories).forEach(([categoryName, data]) => {
                 const categoryId = `CAT${nodeIndex}`;
                 mermaidDiagram += `  A --> ${categoryId}[${data.icon} ${categoryName}]\n`;
-                
-                data.repos.slice(0, 4).forEach((repo, i) => {
+                  data.repos.forEach((repo, i) => {
                   const repoId = `${categoryId}_${i}`;
-                  mermaidDiagram += `  ${categoryId} --> ${repoId}[📝 ${repo.name}]\n`;
+                  mermaidDiagram += `  ${categoryId} --> ${repoId}[📚 ${repo.name}]\n`;
                 });
-                
-                if (data.repos.length > 4) {
-                  mermaidDiagram += `  ${categoryId} --> ${categoryId}_MORE[... +${data.repos.length - 4} more]\n`;
-                }
                 
                 mermaidDiagram += '\n';
                 nodeIndex++;
               });
               
-              // Add styling
-              mermaidDiagram += '  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff\n';
-              mermaidDiagram += '  style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff\n';
+              // Enhanced styling with gradients and animations
+              mermaidDiagram += '  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff\n';
+              mermaidDiagram += '  style B fill:#41d885,stroke:#2ed573,stroke-width:3px,color:#fff\n';
+              mermaidDiagram += '  style C fill:#4ecdc4,stroke:#45b7b8,stroke-width:2px,color:#fff\n';
+              mermaidDiagram += '  style D fill:#6c5ce7,stroke:#a29bfe,stroke-width:2px,color:#fff\n';
+              mermaidDiagram += '  style E fill:#fd79a8,stroke:#fdcb6e,stroke-width:2px,color:#fff\n';
               
               Object.entries(categories).forEach(([_, data], i) => {
                 mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;
               });
-              
-              // Update README sections
+                // Update README sections
               const repoSection = `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`;
               readme = readme.replace(
                 /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
                 repoSection
+              );
+                // Update Latest Activity section
+              const latestSection = `<!--START_SECTION:latest-->\n${latestCard}\n<!--END_SECTION:latest-->`;
+              readme = readme.replace(
+                /<!--START_SECTION:latest-->[\s\S]*?<!--END_SECTION:latest-->/,
+                latestSection
               );
               
               // Update repository structure

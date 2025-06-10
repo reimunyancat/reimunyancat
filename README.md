@@ -9,7 +9,7 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer+%7C+🐱+Cat+Lover;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer)](https://git.io/typing-svg)
 
 </div>
 
@@ -31,6 +31,10 @@
 </div>
 
 ---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+</div>
 
 ## 🧑‍💻 About Me
 
@@ -58,38 +62,45 @@
 
 ---
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+</div>
+
 ## 🚀 Tech Stack & Tools
 
 <div align="center">
 
-### 💻 Languages
+### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp" alt="C++"/>
-  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
-  <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript"/>
-  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript"/>
+  <img src="https://skillicons.dev/icons?i=cpp,python,javascript,typescript" />
 </p>
 
-### 🛠️ Tools & Technologies
+### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux"/>
-  <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux"/>
-  <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu"/>
-  <img src="https://skillicons.dev/icons?i=windows" alt="Windows"/>
-  <img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code"/>
-  <img src="https://skillicons.dev/icons?i=clion" alt="CLion"/>
-  <img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm"/>
-  <img src="https://skillicons.dev/icons?i=git" alt="Git"/>
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"/>
-  <img src="https://skillicons.dev/icons?i=react" alt="React"/>
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,git,github" />
+</p>
+
+### 🖥️ Operating Systems & Databases
+
+<p>
+  <img src="https://skillicons.dev/icons?i=linux,arch,ubuntu,windows,mongodb" />
+</p>
+
+### 🌐 Frameworks & Libraries
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,flask" />
 </p>
 
 </div>
 
 ---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+</div>
 
 ## 📊 GitHub Stats
 
@@ -100,7 +111,10 @@
 
 <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=vue&layout=compact&hide_border=true&langs_count=8" />
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=00b894&line=55a3ff&point=ffffff" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=00b894&line=55a3ff&point=ffffff">
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=vue&hide_border=true&area=true&bg_color=ffffff&color=00b894&line=55a3ff&point=2d3748" width="100%">
+</picture>
 
 <div align="center">
 
@@ -123,6 +137,47 @@
 </div>
 
 ---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+</div>
+
+## 🏗️ Repository Structure
+
+<div align="center">
+
+> 🗂️ **Live Repository Map** - Automatically updated every hour  
+> 📊 This diagram shows ALL repositories categorized by project type and technology
+
+</div>
+
+<!--START_SECTION:structure-->
+
+```mermaid
+graph TD
+  A[reimunyancat]
+
+  A --> CAT0[🌐 Web Development]
+  CAT0 --> CAT0_0[📝 wetube-clone]
+
+  A --> CAT1[🎮 Games & Fun]
+  CAT1 --> CAT1_0[📝 badapple-with-ascii]
+  CAT1 --> CAT1_1[📝 kurukuru-with-ascii]
+
+  A --> CAT2[🌐 Web Development]
+  CAT2 --> CAT2_0[📝 wetube-clone]
+
+  A --> CAT3[🛠️ Tools & Utilities]
+  CAT3 --> CAT3_0[📝 V3-ad-closer]
+
+  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
+  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+```
+
+<!--END_SECTION:structure-->
 
 ## 💼 My Projects
 
@@ -180,13 +235,23 @@
 ### 🆕 Latest Activity
 
 <div align="center">
-  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-  <img alt="Latest Activity" src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
-</picture>
+
+<!--START_SECTION:latest-->
+<a href="https://github.com/reimunyancat/reimunyancat">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+  </picture>
+</a>
+<!--END_SECTION:latest-->
+
+</div>
 
 ---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+</div>
 
 ## 📫 Connect with Me
 
@@ -208,41 +273,6 @@
 </div>
 
 ---
-
-## 🏗️ Repository Structure
-
-> This is the tree-structured layout of my profile and repositories
-
-<!--START_SECTION:structure-->
-
-```mermaid
-graph TD
-  A[reimunyancat]
-
-  A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📝 wetube-clone]
-
-  A --> CAT1[🛠️ Tools & Utilities]
-  CAT1 --> CAT1_0[📝 V3-ad-closer]
-
-  A --> CAT1[🎮 Games & Fun]
-  CAT1 --> CAT1_0[📝 badapple-with-ascii]
-  CAT1 --> CAT1_1[📝 kurukuru-with-ascii]
-
-  A --> CAT2[🌐 Web Development]
-  CAT2 --> CAT2_0[📝 wetube-clone]
-
-  A --> CAT3[🛠️ Tools & Utilities]
-  CAT3 --> CAT3_0[📝 V3-ad-closer]
-
-  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
-  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-```
-
-<!--END_SECTION:structure-->
 
 <div align="center">
 

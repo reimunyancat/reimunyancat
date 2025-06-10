@@ -123,14 +123,18 @@
 > 🌟 **Check out my repositories!** If you find any of these projects useful or interesting, please consider giving them a **star ⭐**. Every bit of encouragement helps me keep building awesome things! 🚀
 
 <!--START_SECTION:repos-->
-<!-- This section is auto-updated by GitHub Actions -->
 <table>
   <tr>
-    <td colspan="2" align="center">
-      <strong style="color:#00b894; font-size: 16px;">🔄 Repositories will be automatically updated!</strong>
-      <br><br>
-      <em>GitHub Actions will fetch and display my latest repositories here.</em>
-    </td>
+    <td><a href="https://github.com/reimunyancat/reimunyancat"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/badapple-with-ascii"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/reimunyancat/wetube-clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/Artifact"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true"></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/reimunyancat/V3-ad-closer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=V3-ad-closer&theme=vue&hide_border=true"></a></td>
+    <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true"></a></td>
   </tr>
 </table>
 <!--END_SECTION:repos-->

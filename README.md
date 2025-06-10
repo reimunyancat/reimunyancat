@@ -152,7 +152,6 @@
 </div>
 
 <!--START_SECTION:structure-->
-
 ```mermaid
 graph TD
   A[👤 reimunyancat] --> B[📁 Profile]
@@ -160,37 +159,48 @@ graph TD
   B --> D[🎨 Assets]
   B --> E[⚡ Workflows]
 
-  A --> CAT0[📁 Other Projects]
+  A --> CAT0[⚙️ Profile & Config]
   CAT0 --> CAT0_0[📚 reimunyancat]
-  CAT0 --> CAT0_1[📚 Artifact]
-  CAT0 --> CAT0_2[📚 yt-downloader]
-  CAT0 --> CAT0_3[📚 selenium]
-  CAT0 --> CAT0_4[📚 jet-fighter-detection]
-  CAT0 --> CAT0_5[📚 baekjoon]
-  CAT0 --> CAT0_6[📚 Flappy-bird]
-  CAT0 --> CAT0_7[📚 discord_bot]
 
   A --> CAT1[🎮 Games & Fun]
   CAT1 --> CAT1_0[📚 badapple-with-ascii]
   CAT1 --> CAT1_1[📚 kurukuru-with-ascii]
+  CAT1 --> CAT1_2[📚 Flappy-bird]
 
   A --> CAT2[🌐 Web Development]
   CAT2 --> CAT2_0[📚 wetube-clone]
 
-  A --> CAT3[🛠️ Tools & Utilities]
-  CAT3 --> CAT3_0[📚 V3-ad-closer]
+  A --> CAT3[🐍 Python Projects]
+  CAT3 --> CAT3_0[📚 Artifact]
+
+  A --> CAT4[🛠️ Tools & Utilities]
+  CAT4 --> CAT4_0[📚 V3-ad-closer]
+  CAT4 --> CAT4_1[📚 yt-downloader]
+  CAT4 --> CAT4_2[📚 selenium]
+
+  A --> CAT5[🤖 AI & ML]
+  CAT5 --> CAT5_0[📚 jet-fighter-detection]
+
+  A --> CAT6[🧮 Algorithm & PS]
+  CAT6 --> CAT6_0[📚 baekjoon]
+
+  A --> CAT7[🤖 Bot Development]
+  CAT7 --> CAT7_0[📚 discord_bot]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
   style B fill:#41d885,stroke:#2ed573,stroke-width:3px,color:#fff
   style C fill:#4ecdc4,stroke:#45b7b8,stroke-width:2px,color:#fff
   style D fill:#6c5ce7,stroke:#a29bfe,stroke-width:2px,color:#fff
   style E fill:#fd79a8,stroke:#fdcb6e,stroke-width:2px,color:#fff
-  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT1 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT5 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT6 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT7 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
-
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

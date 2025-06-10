@@ -225,13 +225,15 @@ graph TD
   A --> CAT1[🛠️ Tools & Utilities]
   CAT1 --> CAT1_0[📝 V3-ad-closer]
 
-  A --> CAT2[🎮 Games & Fun]
-  CAT2 --> CAT2_0[📝 badapple-with-ascii]
-  CAT2 --> CAT2_1[📝 kurukuru-with-ascii]
+  A --> CAT1[🎮 Games & Fun]
+  CAT1 --> CAT1_0[📝 badapple-with-ascii]
+  CAT1 --> CAT1_1[📝 kurukuru-with-ascii]
 
-  A --> CAT3[📁 Other Projects]
-  CAT3 --> CAT3_0[📝 reimunyancat]
-  CAT3 --> CAT3_1[📝 Artifact]
+  A --> CAT2[🌐 Web Development]
+  CAT2 --> CAT2_0[📝 wetube-clone]
+
+  A --> CAT3[🛠️ Tools & Utilities]
+  CAT3 --> CAT3_0[📝 V3-ad-closer]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
   style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff

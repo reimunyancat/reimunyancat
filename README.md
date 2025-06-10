@@ -104,13 +104,21 @@
 
 <div align="center">
 
-![3D Contributions](https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green-animate.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green.svg">
+  <img alt="3D Contributions" src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green-animate.svg" width="100%">
+</picture>
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake.svg" width="100%" alt="Snake eating contributions"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake.svg">
+  <img alt="Snake eating contributions" src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake-green.svg" width="100%">
+</picture>
 
 </div>
 

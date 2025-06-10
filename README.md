@@ -1,22 +1,22 @@
 <!-- 헤더 이미지 -->
 <p align="center">
-  <img src="https://lh4.googleusercontent.com/proxy/iJ2ppLixekrcs_OjdgAkeVe-HVxe6yAjNyn08Hxl0cXGYQ0s7e0bvYIwTQRy1u0mFWkr1fX0ZpEB-z95L70UURzcKE4eQPK1wXUieBpA7cteALgS-Dnd_bS5QiC4TiJl-2kLmuRbunDVCNnUTtVBrQJk9WYjt8pBq32ASEvo8q1FxJunvUQKNTII7Ap6tQyLkEHo8a7DrMFDzsz8MZCwuQsCGCdp" alt="Animated Header" width="100%" />
+  <img src="assets/joanne.gif" alt="Animated Header" width="100%" />
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:55a3ff&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=667EEA&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer+%7C+🐱+Cat+Lover;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer+%7C+🐱+Cat+Lover;)](https://git.io/typing-svg)
 
 </div>
 
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=667eea&style=for-the-badge&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=764ba2&labelColor=2d3748)](https://github.com/reimunyancat)
+![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=00b894&style=for-the-badge&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=55a3ff&labelColor=2d3748)](https://github.com/reimunyancat)
 
 </div>
 
@@ -26,7 +26,7 @@
   
 ### 🌟 Quick Stats
   
-<img src="https://github-profile-trophy.vercel.app/?username=reimunyancat&theme=discord&no-frame=true&no-bg=false&margin-w=4&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=reimunyancat&theme=algolia&no-frame=true&no-bg=false&margin-w=4&column=7" />
 
 </div>
 
@@ -100,12 +100,24 @@
 
 <div align="center">
   
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=blueberry&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=reimunyancat&theme=blueberry&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=vue&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=reimunyancat&theme=vue&hide_border=true" />
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=blueberry&layout=compact&hide_border=true&langs_count=8" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=vue&layout=compact&hide_border=true&langs_count=8" />
 
-<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=667eea&line=764ba2&point=ffffff" />
+<img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=00b894&line=55a3ff&point=ffffff" />
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contributions"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake-dark.svg" width="100%" alt="Snake eating contributions"/>
 
 </div>
 
@@ -117,71 +129,28 @@
 
 > 🌟 **Check out my repositories!** If you find any of these projects useful or interesting, please consider giving them a **star ⭐**. Every bit of encouragement helps me keep building awesome things! 🚀
 
-### 📌 Pinned Repositories
-
 <!--START_SECTION:repos-->
 <!-- This section is auto-updated by GitHub Actions -->
 <table>
   <tr>
     <td colspan="2" align="center">
-      <strong style="color:#667eea; font-size: 16px;">🔄 Repositories are automatically updated!</strong>
+      <strong style="color:#00b894; font-size: 16px;">🔄 Repositories will be automatically updated!</strong>
+      <br><br>
+      <em>GitHub Actions will fetch and display my latest repositories here.</em>
     </td>
   </tr>
 </table>
 <!--END_SECTION:repos-->
 
-### 🆕 Latest Repositories
+### 🆕 Latest Activity
 
 <div align="center">
   
-![Latest Repos](https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=blueberry&hide_border=true)
+![Latest Activity](https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true)
 
 </div>
 
-_📈 New repositories appear here automatically as I create them!_
-
-</div>
-
----
-
-## 🆕 Latest Activity & Repositories
-
-<div align="center">
-
-### 📊 Recent Contributions
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=667eea&line=764ba2&point=ffffff" width="100%" />
-
-### 🎯 Most Used Languages (Real-time)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=blueberry&layout=compact&hide_border=true&langs_count=10&include_all_commits=true&count_private=true" />
-
-### ⚡ Quick Repository Stats
-
-<details>
-<summary><b>🔍 Click to view detailed stats</b></summary>
-<br>
-
-<table>
-  <tr>
-    <td align="center"><strong>📊 Total Public Repos</strong></td>
-    <td align="center"><strong>⭐ Total Stars Earned</strong></td>
-    <td align="center"><strong>🍴 Total Forks</strong></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/dynamic/json?color=667eea&label=repos&query=public_repos&url=https://api.github.com/users/reimunyancat&style=for-the-badge" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/dynamic/json?color=764ba2&label=stars&query=$.starred&url=https://github-api-reimunyancat.vercel.app/api&style=for-the-badge" />
-    </td>
-    <td align="center">
-      <img src="https://img.shields.io/badge/dynamic/json?color=667eea&label=forks&query=$.forked&url=https://github-api-reimunyancat.vercel.app/api&style=for-the-badge" />
-    </td>
-  </tr>
-</table>
-
-</details>
+_📈 This section automatically updates with my most recent repository activity!_
 
 </div>
 
@@ -211,40 +180,23 @@ _📈 New repositories appear here automatically as I create them!_
 ## 🏗️ Repository Structure
 
 > [!NOTE]  
-> This is the tree-structured layout of my profile repository **"reimunyancat"**, showing how everything is organized.
+> This is the tree-structured layout of my profile and repositories, automatically updated to show my latest projects!
 
 ```mermaid
 graph TD
-  A[reimunyancat] --> B[📄 README.md]
+  A[reimunyancat] --> B[📁 Profile/]
+  B --> C[🖼️ README.md]
+  B --> D[🎨 Assets/]
+  B --> E[📊 Workflows/]
 
-  A --> C[📁 marichu-kt/]
-  C --> D[📜 LICENSE]
-  C --> E[📄 README.md]
-
-  C --> F[📁 assets/]
-  F --> G[🖼️ banner.png]
-  F --> H[💰 btc_qr.png]
-  F --> I[📊 line-knowledge.png]
-  F --> J[📋 projects.png]
-  F --> K[🎯 radar-motivation.png]
-
-  C --> L[📁 profile-3d-contrib/]
-  L --> M[🎨 profile-gitblock.svg]
-  L --> N[🌱 profile-green-animate.svg]
-  L --> O[🌿 profile-green.svg]
-  L --> P[🌙 profile-night-green.svg]
-  L --> Q[🌈 profile-night-rainbow.svg]
-  L --> R[👁️ profile-night-view.svg]
-  L --> S[🍂 profile-season-animate.svg]
-  L --> T[🍃 profile-season.svg]
-  L --> U[🌺 profile-south-season-animate.svg]
-  L --> V[🌸 profile-south-season.svg]
-
-  style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
-  style B fill:#feca57,stroke:#ff9ff3,stroke-width:2px,color:#000
-  style C fill:#ff6b6b,stroke:#ee5a24,stroke-width:2px,color:#fff
-  style F fill:#4ecdc4,stroke:#00b894,stroke-width:2px,color:#fff
-  style L fill:#a29bfe,stroke:#6c5ce7,stroke-width:2px,color:#fff
+  A --> REPO0[📝 Repository 1]
+  A --> REPO1[📝 Repository 2]
+  A --> REPO2[📝 Repository 3]
+  A --> REPO3[📝 Repository 4]
+  A --> REPO4[📝 Repository 5]
+  A --> REPO5[📝 Repository 6]
+  style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
+  style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff
 ```
 
 <div align="center">
@@ -274,6 +226,6 @@ graph TD
   
 **Thanks for visiting my profile! 🚀**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:55a3ff&height=120&section=footer"/>
 
 </div>

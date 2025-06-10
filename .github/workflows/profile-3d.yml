@@ -1,0 +1,48 @@
+name: Generate 3D Profile
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # 매일 오전 2시에 실행
+  workflow_dispatch:
+  repository_dispatch:
+    types: [update-3d-profile]
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate 3D contributions
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundColor": "#0d1117",
+              "foregroundColor": "#00b894",
+              "strongColor": "#55a3ff",
+              "weakColor": "#2f3542",
+              "radarColor": "#41d885",
+              "growingAnimation": true,
+              "contribColors": [
+                "#161b22",
+                "#00b894",
+                "#2ed573",
+                "#41d885",
+                "#7bed9f"
+              ]
+            }
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "Update 3D contributions"
+          git push

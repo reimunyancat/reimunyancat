@@ -211,17 +211,13 @@
 
 ## 🏗️ Repository Structure
 
-> [!NOTE]  
-> This is the tree-structured layout of my profile and repositories, automatically updated to show my latest projects categorized by type!
+> This is the tree-structured layout of my profile and repositories
 
 <!--START_SECTION:structure-->
 
 ```mermaid
 graph TD
-  A[reimunyancat] --> B[📁 Profile/]
-  B --> C[🖼️ README.md]
-  B --> D[🎨 Assets/]
-  B --> E[📊 Workflows/]
+  A[reimunyancat]
 
   A --> CAT0[🌐 Web Development]
   CAT0 --> CAT0_0[📝 wetube-clone]
@@ -238,7 +234,6 @@ graph TD
   CAT3 --> CAT3_1[📝 Artifact]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:3px,color:#fff
-  style B fill:#41d885,stroke:#2ed573,stroke-width:2px,color:#fff
   style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -261,7 +256,7 @@ graph TD
     <tr>
       <td>☕</td>
       <td><b>Fuel</b></td>
-      <td>black tea & Coffee</td>
+      <td>black tea</td>
     </tr>
   </table>
 </details>

@@ -152,7 +152,6 @@
 </div>
 
 <!--START_SECTION:structure-->
-
 ```mermaid
 graph TD
   A[👤 reimunyancat] --> B[📁 Profile]
@@ -190,7 +189,6 @@ graph TD
   style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
-
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

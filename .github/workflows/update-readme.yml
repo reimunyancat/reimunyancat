@@ -1,0 +1,110 @@
+name: Update README with latest repositories
+
+on:
+  schedule:
+    # Runs every day at 6:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: |
+          npm install axios cheerio
+
+      - name: Update README with latest repos
+        run: |
+          node << 'EOF'
+          const axios = require('axios');
+          const fs = require('fs');
+
+          async function updateReadme() {
+            try {
+              // Get user repositories
+              const response = await axios.get('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=6');
+              const repos = response.data.filter(repo => !repo.fork && repo.name !== 'reimunyancat');
+              
+              // Generate repository cards
+              let repoCards = '<table>\n';
+              for (let i = 0; i < repos.length; i += 2) {
+                repoCards += '  <tr>\n';
+                
+                // First repo in row
+                if (repos[i]) {
+                  repoCards += `    <td>\n`;
+                  repoCards += `      <a href="${repos[i].html_url}">\n`;
+                  repoCards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repos[i].name}&theme=blueberry&hide_border=true" alt="${repos[i].name}">\n`;
+                  repoCards += `      </a>\n`;
+                  repoCards += `    </td>\n`;
+                }
+                
+                // Second repo in row
+                if (repos[i + 1]) {
+                  repoCards += `    <td>\n`;
+                  repoCards += `      <a href="${repos[i + 1].html_url}">\n`;
+                  repoCards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repos[i + 1].name}&theme=blueberry&hide_border=true" alt="${repos[i + 1].name}">\n`;
+                  repoCards += `      </a>\n`;
+                  repoCards += `    </td>\n`;
+                } else {
+                  repoCards += `    <td align="center" valign="middle">\n`;
+                  repoCards += `      <strong style="color:#667eea; font-size: 18px;">🚧 More Projects Coming Soon! 🚧</strong>\n`;
+                  repoCards += `    </td>\n`;
+                }
+                
+                repoCards += '  </tr>\n';
+              }
+              repoCards += '</table>';
+
+              // Read current README
+              let readme = fs.readFileSync('README.md', 'utf8');
+              
+              // Replace the repos section
+              const startMarker = '<!--START_SECTION:repos-->';
+              const endMarker = '<!--END_SECTION:repos-->';
+              const startIndex = readme.indexOf(startMarker);
+              const endIndex = readme.indexOf(endMarker);
+              
+              if (startIndex !== -1 && endIndex !== -1) {
+                const before = readme.substring(0, startIndex + startMarker.length);
+                const after = readme.substring(endIndex);
+                readme = before + '\n' + repoCards + '\n' + after;
+                
+                fs.writeFileSync('README.md', readme);
+                console.log('✅ README updated successfully!');
+              } else {
+                console.log('❌ Could not find markers in README.md');
+              }
+            } catch (error) {
+              console.error('❌ Error updating README:', error.message);
+            }
+          }
+
+          updateReadme();
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update: Latest repositories in README"
+            git push
+          fi

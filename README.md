@@ -70,19 +70,26 @@
 ### 💻 Languages
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=cpp" alt="C++"/>
+  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
+  <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript"/>
+  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript"/>
 </p>
 
 ### 🛠️ Tools & Technologies
 
 <p>
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux"/>
+  <img src="https://skillicons.dev/icons?i=arch" alt="Arch Linux"/>
+  <img src="https://skillicons.dev/icons?i=ubuntu" alt="Ubuntu"/>
+  <img src="https://skillicons.dev/icons?i=windows" alt="Windows"/>
+  <img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code"/>
+  <img src="https://skillicons.dev/icons?i=clion" alt="CLion"/>
+  <img src="https://skillicons.dev/icons?i=pycharm" alt="PyCharm"/>
+  <img src="https://skillicons.dev/icons?i=git" alt="Git"/>
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB"/>
+  <img src="https://skillicons.dev/icons?i=react" alt="React"/>
 </p>
 
 </div>
@@ -104,14 +111,77 @@
 
 ---
 
-## 💼 Recent Activity
+## 💼 My Projects
 
 <div align="center">
 
-<!--START_SECTION:activity-->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=blueberry&hide_border=true" />
+> 🌟 **Check out my repositories!** If you find any of these projects useful or interesting, please consider giving them a **star ⭐**. Every bit of encouragement helps me keep building awesome things! 🚀
 
-_📈 Check back soon for updates on my latest projects!_
+### 📌 Pinned Repositories
+
+<!--START_SECTION:repos-->
+<!-- This section is auto-updated by GitHub Actions -->
+<table>
+  <tr>
+    <td colspan="2" align="center">
+      <strong style="color:#667eea; font-size: 16px;">🔄 Repositories are automatically updated!</strong>
+    </td>
+  </tr>
+</table>
+<!--END_SECTION:repos-->
+
+### 🆕 Latest Repositories
+
+<div align="center">
+  
+![Latest Repos](https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=blueberry&hide_border=true)
+
+</div>
+
+_📈 New repositories appear here automatically as I create them!_
+
+</div>
+
+---
+
+## 🆕 Latest Activity & Repositories
+
+<div align="center">
+
+### 📊 Recent Contributions
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=667eea&line=764ba2&point=ffffff" width="100%" />
+
+### 🎯 Most Used Languages (Real-time)
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=blueberry&layout=compact&hide_border=true&langs_count=10&include_all_commits=true&count_private=true" />
+
+### ⚡ Quick Repository Stats
+
+<details>
+<summary><b>🔍 Click to view detailed stats</b></summary>
+<br>
+
+<table>
+  <tr>
+    <td align="center"><strong>📊 Total Public Repos</strong></td>
+    <td align="center"><strong>⭐ Total Stars Earned</strong></td>
+    <td align="center"><strong>🍴 Total Forks</strong></td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/dynamic/json?color=667eea&label=repos&query=public_repos&url=https://api.github.com/users/reimunyancat&style=for-the-badge" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/dynamic/json?color=764ba2&label=stars&query=$.starred&url=https://github-api-reimunyancat.vercel.app/api&style=for-the-badge" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/dynamic/json?color=667eea&label=forks&query=$.forked&url=https://github-api-reimunyancat.vercel.app/api&style=for-the-badge" />
+    </td>
+  </tr>
+</table>
+
+</details>
 
 </div>
 
@@ -137,6 +207,45 @@ _📈 Check back soon for updates on my latest projects!_
 </div>
 
 ---
+
+## 🏗️ Repository Structure
+
+> [!NOTE]  
+> This is the tree-structured layout of my profile repository **"reimunyancat"**, showing how everything is organized.
+
+```mermaid
+graph TD
+  A[reimunyancat] --> B[📄 README.md]
+
+  A --> C[📁 marichu-kt/]
+  C --> D[📜 LICENSE]
+  C --> E[📄 README.md]
+
+  C --> F[📁 assets/]
+  F --> G[🖼️ banner.png]
+  F --> H[💰 btc_qr.png]
+  F --> I[📊 line-knowledge.png]
+  F --> J[📋 projects.png]
+  F --> K[🎯 radar-motivation.png]
+
+  C --> L[📁 profile-3d-contrib/]
+  L --> M[🎨 profile-gitblock.svg]
+  L --> N[🌱 profile-green-animate.svg]
+  L --> O[🌿 profile-green.svg]
+  L --> P[🌙 profile-night-green.svg]
+  L --> Q[🌈 profile-night-rainbow.svg]
+  L --> R[👁️ profile-night-view.svg]
+  L --> S[🍂 profile-season-animate.svg]
+  L --> T[🍃 profile-season.svg]
+  L --> U[🌺 profile-south-season-animate.svg]
+  L --> V[🌸 profile-south-season.svg]
+
+  style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
+  style B fill:#feca57,stroke:#ff9ff3,stroke-width:2px,color:#000
+  style C fill:#ff6b6b,stroke:#ee5a24,stroke-width:2px,color:#fff
+  style F fill:#4ecdc4,stroke:#00b894,stroke-width:2px,color:#fff
+  style L fill:#a29bfe,stroke:#6c5ce7,stroke-width:2px,color:#fff
+```
 
 <div align="center">
 

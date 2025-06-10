@@ -43,11 +43,6 @@
   <td>C++, Python, TypeScript</td>
 </tr>
 <tr>
-  <td>🎵</td>
-  <td><b>Passion</b></td>
-  <td>Creating fun and innovative projects</td>
-</tr>
-<tr>
   <td>🎯</td>
   <td><b>Goal</b></td>
   <td>Becoming a full-stack developer</td>
@@ -107,17 +102,15 @@
 
 <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=00b894&line=55a3ff&point=ffffff" />
 
+<div align="center">
+
+![3D Contributions](https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg)
+
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contributions"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/output/github-snake-dark.svg" width="100%" alt="Snake eating contributions"/>
+<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" width="100%" alt="Snake eating contributions"/>
 
 </div>
 
@@ -148,12 +141,6 @@
   
 ![Latest Activity](https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true)
 
-</div>
-
-_📈 This section automatically updates with my most recent repository activity!_
-
-</div>
-
 ---
 
 ## 📫 Connect with Me
@@ -178,9 +165,6 @@ _📈 This section automatically updates with my most recent repository activity
 ---
 
 ## 🏗️ Repository Structure
-
-> [!NOTE]  
-> This is the tree-structured layout of my profile and repositories, automatically updated to show my latest projects!
 
 ```mermaid
 graph TD

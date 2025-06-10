@@ -146,7 +146,6 @@
 
 <div align="center">
 
-> 🗂️ **Live Repository Map** - Automatically updated every hour  
 > 📊 This diagram shows ALL repositories categorized by project type and technology
 
 </div>

@@ -176,13 +176,9 @@ jobs:
                 }
                 categories[classification.category].repos.push(repo);
               });
-              
-              // Generate Mermaid diagram
+                // Generate Mermaid diagram
               let mermaidDiagram = 'graph TD\n';
-              mermaidDiagram += '  A[👤 reimunyancat] --> B[📁 Profile]\n';
-              mermaidDiagram += '  B --> C[📖 README.md]\n';
-              mermaidDiagram += '  B --> D[🎨 Assets]\n';
-              mermaidDiagram += '  B --> E[⚡ Workflows]\n\n';
+              mermaidDiagram += '  A[👤 reimunyancat]\n\n';
               
               let nodeIndex = 0;
               Object.entries(categories).forEach(([categoryName, data]) => {
@@ -199,10 +195,6 @@ jobs:
               
               // Enhanced styling with gradients and animations
               mermaidDiagram += '  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff\n';
-              mermaidDiagram += '  style B fill:#41d885,stroke:#2ed573,stroke-width:3px,color:#fff\n';
-              mermaidDiagram += '  style C fill:#4ecdc4,stroke:#45b7b8,stroke-width:2px,color:#fff\n';
-              mermaidDiagram += '  style D fill:#6c5ce7,stroke:#a29bfe,stroke-width:2px,color:#fff\n';
-              mermaidDiagram += '  style E fill:#fd79a8,stroke:#fdcb6e,stroke-width:2px,color:#fff\n';
               
               Object.entries(categories).forEach(([_, data], i) => {
                 mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;

@@ -1,195 +1,101 @@
-name: Update README with Latest Repositories
+name: Update README
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - name: Create update script
+        run: |
+          cat > update-readme.js << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
 
-    - name: Install dependencies
-      run: |
-        npm init -y
-        npm install axios
-
-    - name: Update README with latest repositories
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        node << 'EOF'
-        const axios = require('axios');
-        const fs = require('fs');
-        
-        const username = 'reimunyancat';
-        const token = process.env.GITHUB_TOKEN;
-        
-        async function updateReadme() {
-          try {
-            // Get user's repositories
-            const response = await axios.get(`https://api.github.com/users/${username}/repos`, {
-              headers: {
-                'Authorization': `token ${token}`,
-                'Accept': 'application/vnd.github.v3+json'
-              },
-              params: {
-                sort: 'updated',
-                direction: 'desc',
-                per_page: 100
-              }
+          function httpGet(url, headers = {}) {
+            return new Promise((resolve, reject) => {
+              const req = https.get(url, { headers }, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                  try {
+                    resolve(JSON.parse(data));
+                  } catch (err) {
+                    reject(err);
+                  }
+                });
+              });
+              req.on('error', reject);
             });
-            
-            const repos = response.data.filter(repo => !repo.fork && !repo.private);
-            const latestRepos = repos.slice(0, 6); // Get top 6 repositories
-            
-            // Read current README
-            let readme = fs.readFileSync('README.md', 'utf8');
-            
-            // Generate repository cards for My Projects section
-            let repoCards = '';
-            for (let i = 0; i < latestRepos.length; i += 2) {
-              repoCards += '  <tr>\n';
-              
-              // First repository in row
-              if (latestRepos[i]) {
-                repoCards += `    <td>
-      <a href="${latestRepos[i].html_url}">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${latestRepos[i].name}&theme=blueberry&hide_border=true" alt="${latestRepos[i].name}">
-      </a>
-    </td>\n`;
-              }
-              
-              // Second repository in row (if exists)
-              if (latestRepos[i + 1]) {
-                repoCards += `    <td>
-      <a href="${latestRepos[i + 1].html_url}">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${latestRepos[i + 1].name}&theme=blueberry&hide_border=true" alt="${latestRepos[i + 1].name}">
-      </a>
-    </td>\n`;
-              } else {
-                repoCards += `    <td align="center" valign="middle">
-      <strong style="color:#667eea; font-size: 18px;">🚧 More Projects Coming Soon! 🚧</strong>
-    </td>\n`;
-              }
-              
-              repoCards += '  </tr>\n';
-            }
-            
-            // Update repositories section
-            const repoSection = `<table>
-${repoCards}</table>`;
-            
-            readme = readme.replace(
-              /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
-              `<!--START_SECTION:repos-->
-${repoSection}
-<!--END_SECTION:repos-->`
-            );
-            
-            // Generate repository structure for Mermaid diagram
-            const publicRepos = repos.filter(repo => repo.name !== username).slice(0, 10);
-            let mermaidNodes = '';
-            let connections = '';
-            
-            publicRepos.forEach((repo, index) => {
-              const nodeId = `REPO${index}`;
-              const language = repo.language || 'Other';
-              const emoji = getLanguageEmoji(language);
-              
-              connections += `  A --> ${nodeId}[${emoji} ${repo.name}]\n`;
-              if (repo.description) {
-                mermaidNodes += `  ${nodeId} --> ${nodeId}_DESC["${repo.description.substring(0, 30)}..."]\n`;
-              }
-            });
-            
-            // Update Mermaid diagram
-            const mermaidDiagram = `graph TD
-  A[reimunyancat] --> B[📁 Profile/]
-  B --> C[🖼️ README.md]
-  B --> D[🎨 Assets/]
-  B --> E[📊 Workflows/]
-
-${connections}
-
-  style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
-  style B fill:#ff6b6b,stroke:#ee5a24,stroke-width:2px,color:#fff`;
-            
-            readme = readme.replace(
-              /```mermaid\ngraph TD[\s\S]*?```/,
-              `\`\`\`mermaid
-${mermaidDiagram}
-\`\`\``
-            );
-            
-            // Write updated README
-            fs.writeFileSync('README.md', readme);
-            
-            console.log('✅ README updated successfully!');
-            console.log(`📊 Updated with ${latestRepos.length} repositories`);
-            
-          } catch (error) {
-            console.error('❌ Error updating README:', error.message);
-            process.exit(1);
           }
-        }
-        
-        function getLanguageEmoji(language) {
-          const emojiMap = {
-            'JavaScript': '🟨',
-            'TypeScript': '🔷',
-            'Python': '🐍',
-            'Java': '☕',
-            'C++': '⚡',
-            'C': '🔧',
-            'C#': '💜',
-            'Go': '🐹',
-            'Rust': '🦀',
-            'HTML': '🌐',
-            'CSS': '🎨',
-            'Shell': '🐚',
-            'Dockerfile': '🐳',
-            'Vue': '💚',
-            'React': '⚛️'
-          };
-          return emojiMap[language] || '📝';
-        }
-        
-        updateReadme();
-        EOF    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git diff --staged --quiet || git commit -m "🤖 Auto-update README with latest repositories"
-        git push
-        
-    - name: Trigger 3D Profile Generation
-      run: |
-        curl -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/dispatches \
-          -d '{"event_type":"update-3d-profile"}'
-          
-    - name: Trigger Snake Animation  
-      run: |
-        curl -X POST \
-          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/dispatches \
-          -d '{"event_type":"update-snake"}'
+
+          (async () => {
+            try {
+              const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=50', {
+                'Authorization': 'token ' + process.env.GITHUB_TOKEN,
+                'User-Agent': 'GitHub-Actions'
+              });
+              
+              const filtered = repos.filter(r => !r.fork && !r.private);
+              const latest = filtered.slice(0, 6);
+              
+              let readme = fs.readFileSync('README.md', 'utf8');
+              
+              // Generate repository cards
+              let cards = '';
+              for (let i = 0; i < latest.length; i += 2) {
+                cards += '  <tr>\n';
+                if (latest[i]) {
+                  const repoUrl = latest[i].html_url;
+                  const repoName = latest[i].name;
+                  cards += `    <td><a href="${repoUrl}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true"></a></td>\n`;
+                }
+                if (latest[i + 1]) {
+                  const repoUrl = latest[i + 1].html_url;
+                  const repoName = latest[i + 1].name;
+                  cards += `    <td><a href="${repoUrl}"><img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true"></a></td>\n`;
+                } else {
+                  cards += '    <td align="center"><strong style="color:#00b894;">🚧 More Coming Soon! 🚧</strong></td>\n';
+                }
+                cards += '  </tr>\n';
+              }
+              
+              // Update README
+              const repoSection = `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`;
+              readme = readme.replace(
+                /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
+                repoSection
+              );
+              
+              fs.writeFileSync('README.md', readme);
+              console.log('✅ README updated successfully!');
+              
+            } catch (error) {
+              console.error('❌ Error:', error.message);
+              process.exit(1);
+            }
+          })();
+          EOF
+
+      - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node update-readme.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🤖 Auto-update README with latest repositories"
+          git push

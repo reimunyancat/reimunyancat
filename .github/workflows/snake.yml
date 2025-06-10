@@ -1,14 +1,14 @@
-name: Generate Snake Animation
+name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # 12시간마다 실행
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-  repository_dispatch:
-    types: [update-snake]
-  push:
-    branches:
-      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   generate:
@@ -16,20 +16,19 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate snake.svg
+      - name: Generate snake game
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: reimunyancat
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/github-snake-green.svg?color_snake=#00b894&color_dots=#2f3542,#39426a,#55a3ff,#41d885,#7bed9f
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

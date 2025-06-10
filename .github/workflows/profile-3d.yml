@@ -2,26 +2,26 @@ name: Generate 3D Profile
 
 on:
   schedule:
-    - cron: "0 2 * * *" # 매일 오전 2시에 실행
+    - cron: "0 2 * * *"
   workflow_dispatch:
-  repository_dispatch:
-    types: [update-3d-profile]
-  push:
-    branches:
-      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate 3D contributions
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: reimunyancat
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: reimunyancat
           SETTING_JSON: |
             {
               "type": "normal",
@@ -39,10 +39,10 @@ jobs:
                 "#7bed9f"
               ]
             }
-      - name: Commit and Push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff --staged --quiet || git commit -m "Update 3D contributions"
-          git push
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

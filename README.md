@@ -161,11 +161,11 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📚 wetube-clone]
+  A --> CAT0[⚙️ Profile & Config]
+  CAT0 --> CAT0_0[📚 reimunyancat]
 
-  A --> CAT1[⚙️ Profile & Config]
-  CAT1 --> CAT1_0[📚 reimunyancat]
+  A --> CAT1[🌐 Web Development]
+  CAT1 --> CAT1_0[📚 wetube-clone]
 
   A --> CAT2[🎮 Games & Fun]
   CAT2 --> CAT2_0[📚 badapple-with-ascii]
@@ -190,8 +190,8 @@ graph TD
   CAT7 --> CAT7_0[📚 discord_bot]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -210,16 +210,16 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/wetube-clone">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/wetube-clone">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -259,10 +259,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/wetube-clone">
+<a href="https://github.com/reimunyancat/reimunyancat">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

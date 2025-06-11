@@ -161,43 +161,40 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🌐 Web Development]
+  CAT0 --> CAT0_0[📚 Artifact]
+  CAT0 --> CAT0_1[📚 wetube-clone]
 
-  A --> CAT1[🐍 Python Projects]
-  CAT1 --> CAT1_0[📚 Artifact]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[🌐 Web Development]
-  CAT2 --> CAT2_0[📚 wetube-clone]
+  A --> CAT2[🎮 Games & Fun]
+  CAT2 --> CAT2_0[📚 badapple-with-ascii]
+  CAT2 --> CAT2_1[📚 kurukuru-with-ascii]
+  CAT2 --> CAT2_2[📚 Flappy-bird]
 
-  A --> CAT3[🎮 Games & Fun]
-  CAT3 --> CAT3_0[📚 badapple-with-ascii]
-  CAT3 --> CAT3_1[📚 kurukuru-with-ascii]
-  CAT3 --> CAT3_2[📚 Flappy-bird]
+  A --> CAT3[🛠️ Tools & Utilities]
+  CAT3 --> CAT3_0[📚 V3-ad-closer]
+  CAT3 --> CAT3_1[📚 yt-downloader]
+  CAT3 --> CAT3_2[📚 selenium]
 
-  A --> CAT4[🛠️ Tools & Utilities]
-  CAT4 --> CAT4_0[📚 V3-ad-closer]
-  CAT4 --> CAT4_1[📚 yt-downloader]
-  CAT4 --> CAT4_2[📚 selenium]
+  A --> CAT4[🤖 AI & ML]
+  CAT4 --> CAT4_0[📚 jet-fighter-detection]
 
-  A --> CAT5[🤖 AI & ML]
-  CAT5 --> CAT5_0[📚 jet-fighter-detection]
+  A --> CAT5[🧮 Algorithm & PS]
+  CAT5 --> CAT5_0[📚 baekjoon]
 
-  A --> CAT6[🧮 Algorithm & PS]
-  CAT6 --> CAT6_0[📚 baekjoon]
-
-  A --> CAT7[🤖 Bot Development]
-  CAT7 --> CAT7_0[📚 discord_bot]
+  A --> CAT6[🤖 Bot Development]
+  CAT6 --> CAT6_0[📚 discord_bot]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT5 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT6 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT7 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT4 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT5 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT6 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
 <!--END_SECTION:structure-->
 
@@ -210,16 +207,16 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/reimunyancat">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/reimunyancat">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -259,10 +256,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/reimunyancat">
+<a href="https://github.com/reimunyancat/Artifact">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

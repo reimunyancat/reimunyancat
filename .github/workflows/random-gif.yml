@@ -1,0 +1,24 @@
+name: Randomize Header GIF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  random-gif:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Pick random gif and update README
+        run: |
+          gifs=(assets/*.gif)
+          pick=${gifs[$RANDOM % ${#gifs[@]}]}
+          sed -i -E "s|<img src=\"assets/[^\"]+\" alt=\"Animated Header\" width=\"100%\" />|<img src=\"$pick\" alt=\"Animated Header\" width=\"100%\" />|" README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🤖 Randomize header gif"
+          git push

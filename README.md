@@ -1,6 +1,6 @@
 <!-- 헤더 이미지 -->
 <p align="center">
-  <img src="assets/joanne2.gif" alt="Animated Header" width="100%" />
+  <img src="assets/joanne.gif" alt="Animated Header" width="100%" />
 </p>
 
 <div align="center">

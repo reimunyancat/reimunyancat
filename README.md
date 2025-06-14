@@ -1,6 +1,6 @@
 <!-- 헤더 이미지 -->
 <p align="center">
-  <img src="assets/joanne.gif" alt="Animated Header" width="100%" />
+  <img src="assets/joanne2.gif" alt="Animated Header" width="100%" />
 </p>
 
 <div align="center">
@@ -157,6 +157,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat]
@@ -196,6 +197,7 @@ graph TD
   style CAT5 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

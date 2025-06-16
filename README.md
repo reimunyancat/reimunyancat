@@ -73,7 +73,7 @@
 ### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,python,javascript,typescript" />
+  <img src="https://skillicons.dev/icons?i=cpp,cs,python,javascript,typescript" />
 </p>
 
 ### 🌐 Frameworks & Libraries
@@ -112,7 +112,7 @@
 
 <div align="center">
   
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=vue&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=vue&hide_border=true&count_private=true" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=reimunyancat&theme=vue&hide_border=true" />
 
 <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=vue&layout=compact&hide_border=true&langs_count=8" />
@@ -157,6 +157,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat]
@@ -196,6 +197,7 @@ graph TD
   style CAT5 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

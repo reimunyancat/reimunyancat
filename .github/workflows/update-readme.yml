@@ -46,7 +46,9 @@ jobs:
                 'User-Agent': 'GitHub-Actions'
               });              const filtered = repos.filter(r => !r.fork && !r.private);
               const latest = filtered.slice(0, 6);
-              const recentlyUpdated = filtered.slice(0, 1); // For Latest Activity section (only 1 most recent)
+              // Exclude the profile repo from 'Latest Activity'
+              const filteredForLatest = filtered.filter(r => r.name !== 'reimunyancat');
+              const recentlyUpdated = filteredForLatest.slice(0, 1); // For Latest Activity section (only 1 most recent)
               
               let readme = fs.readFileSync('README.md', 'utf8');
                 // Generate repository cards with dark mode support

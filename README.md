@@ -1,11 +1,10 @@
-<!-- 헤더 이미지 -->
-<p align="center">
-  <img src="assets/joanne2.gif" alt="Animated Header" width="100%" />
-</p>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:55a3ff&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
+
+<p align="center">
+  <img src="assets/joanne2.gif" alt="Animated Header" width="100%" />
+</p>
 
 <div align="center">
   

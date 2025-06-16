@@ -256,10 +256,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/reimunyancat">
+<a href="https://github.com/reimunyancat/wetube-clone">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wetube-clone&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

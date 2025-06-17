@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:55a3ff&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:27ae60&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
 
 <p align="center">
-  <img src="assets/joanne2.gif" alt="Animated Header" width="100%" />
+  <img src="https://random-gif.reimunyancat.workers.dev" alt="Animated Header" width="100%" />
 </p>
 
 <div align="center">
@@ -15,7 +15,7 @@
 <div align="center">
   
 ![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=00b894&style=for-the-badge&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=55a3ff&labelColor=2d3748)](https://github.com/reimunyancat)
+[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=27ae60)](https://github.com/reimunyancat)
 
 </div>
 
@@ -32,7 +32,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🧑‍💻 About Me
@@ -62,7 +62,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🚀 Tech Stack & Tools
@@ -104,7 +104,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 📊 GitHub Stats
@@ -144,7 +144,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🏗️ Repository Structure
@@ -156,6 +156,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat]
@@ -195,6 +196,7 @@ graph TD
   style CAT5 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects
@@ -268,7 +270,7 @@ graph TD
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:55a3ff&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 📫 Connect with Me
@@ -319,6 +321,6 @@ graph TD
   
 **Thanks for visiting my profile! 🚀**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:55a3ff&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:27ae60&height=120&section=footer"/>
 
 </div>

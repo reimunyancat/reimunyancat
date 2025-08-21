@@ -156,6 +156,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat]
@@ -195,6 +196,7 @@ graph TD
   style CAT5 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects
@@ -287,29 +289,6 @@ graph TD
 <p>
   <i>💬 If you just want to talk, even if it's not about collaboration or coding, feel free to contact me anytime!</i>
 </p>
-
-</div>
-
----
-
-<div align="center">
-
-<details>
-  <summary><b>✨ Fun Facts About Me</b></summary>
-  <br>
-  <table>
-    <tr>
-      <td>🔭</td>
-      <td><b>Current Project</b></td>
-      <td>Secret Project (Coming Soon!)</td>
-    </tr>
-    <tr>
-      <td>☕</td>
-      <td><b>Fuel</b></td>
-      <td>black tea</td>
-    </tr>
-  </table>
-</details>
 
 </div>
 

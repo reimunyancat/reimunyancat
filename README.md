@@ -160,27 +160,27 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🎮 Games & Fun]
+  CAT0 --> CAT0_0[📚 badapple-with-ascii]
+  CAT0 --> CAT0_1[📚 kurukuru-with-ascii]
+  CAT0 --> CAT0_2[📚 Flappy-bird]
 
-  A --> CAT1[🌐 Web Development]
-  CAT1 --> CAT1_0[📚 mytube]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[🧮 Algorithm & PS]
-  CAT2 --> CAT2_0[📚 baekjoon]
+  A --> CAT2[🌐 Web Development]
+  CAT2 --> CAT2_0[📚 mytube]
 
-  A --> CAT3[📁 Other Projects]
-  CAT3 --> CAT3_0[📚 enigma]
+  A --> CAT3[🧮 Algorithm & PS]
+  CAT3 --> CAT3_0[📚 baekjoon]
 
-  A --> CAT4[🛠️ Tools & Utilities]
-  CAT4 --> CAT4_0[📚 selenium]
-  CAT4 --> CAT4_1[📚 V3-ad-closer]
-  CAT4 --> CAT4_2[📚 yt-downloader]
+  A --> CAT4[📁 Other Projects]
+  CAT4 --> CAT4_0[📚 enigma]
 
-  A --> CAT5[🎮 Games & Fun]
-  CAT5 --> CAT5_0[📚 badapple-with-ascii]
-  CAT5 --> CAT5_1[📚 kurukuru-with-ascii]
-  CAT5 --> CAT5_2[📚 Flappy-bird]
+  A --> CAT5[🛠️ Tools & Utilities]
+  CAT5 --> CAT5_0[📚 selenium]
+  CAT5 --> CAT5_1[📚 V3-ad-closer]
+  CAT5 --> CAT5_2[📚 yt-downloader]
 
   A --> CAT6[🤖 AI & ML]
   CAT6 --> CAT6_0[📚 jet-fighter-detection]
@@ -189,12 +189,12 @@ graph TD
   CAT7 --> CAT7_0[📚 discord_bot]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT5 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT4 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT5 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT7 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
@@ -209,44 +209,44 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/mytube">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/baekjoon">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=baekjoon&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=baekjoon&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/selenium">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=selenium&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=selenium&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -258,10 +258,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/mytube">
+<a href="https://github.com/reimunyancat/badapple-with-ascii">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

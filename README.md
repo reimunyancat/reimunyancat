@@ -160,43 +160,44 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🤖 Bot Development]
+  CAT0 --> CAT0_0[📚 osu-mania_bot]
+  CAT0 --> CAT0_1[📚 discord_bot]
 
-  A --> CAT1[🎮 Games & Fun]
-  CAT1 --> CAT1_0[📚 kurukuru-with-ascii]
-  CAT1 --> CAT1_1[📚 badapple-with-ascii]
-  CAT1 --> CAT1_2[📚 Flappy-bird]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[🌐 Web Development]
-  CAT2 --> CAT2_0[📚 mytube]
+  A --> CAT2[🎮 Games & Fun]
+  CAT2 --> CAT2_0[📚 kurukuru-with-ascii]
+  CAT2 --> CAT2_1[📚 badapple-with-ascii]
+  CAT2 --> CAT2_2[📚 Flappy-bird]
 
-  A --> CAT3[🧮 Algorithm & PS]
-  CAT3 --> CAT3_0[📚 baekjoon]
+  A --> CAT3[🌐 Web Development]
+  CAT3 --> CAT3_0[📚 mytube]
 
-  A --> CAT4[📁 Other Projects]
-  CAT4 --> CAT4_0[📚 enigma]
+  A --> CAT4[🧮 Algorithm & PS]
+  CAT4 --> CAT4_0[📚 baekjoon]
 
-  A --> CAT5[🛠️ Tools & Utilities]
-  CAT5 --> CAT5_0[📚 selenium]
-  CAT5 --> CAT5_1[📚 V3-ad-closer]
-  CAT5 --> CAT5_2[📚 yt-downloader]
+  A --> CAT5[📁 Other Projects]
+  CAT5 --> CAT5_0[📚 enigma]
 
-  A --> CAT6[🤖 AI & ML]
-  CAT6 --> CAT6_0[📚 jet-fighter-detection]
+  A --> CAT6[🛠️ Tools & Utilities]
+  CAT6 --> CAT6_0[📚 selenium]
+  CAT6 --> CAT6_1[📚 V3-ad-closer]
+  CAT6 --> CAT6_2[📚 yt-downloader]
 
-  A --> CAT7[🤖 Bot Development]
-  CAT7 --> CAT7_0[📚 discord_bot]
+  A --> CAT7[🤖 AI & ML]
+  CAT7 --> CAT7_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT4 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT5 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT6 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT7 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT4 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT5 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT6 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT7 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
 <!--END_SECTION:structure-->
 
@@ -209,44 +210,44 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/osu-mania_bot">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/mytube">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=mytube&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/baekjoon">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=baekjoon&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=baekjoon&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/enigma">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -258,10 +259,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/kurukuru-with-ascii">
+<a href="https://github.com/reimunyancat/osu-mania_bot">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

@@ -160,17 +160,17 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🎮 Games & Fun]
+  CAT0 --> CAT0_0[📚 badapple-with-ascii]
+  CAT0 --> CAT0_1[📚 kurukuru-with-ascii]
+  CAT0 --> CAT0_2[📚 Flappy-bird]
 
-  A --> CAT1[🤖 Bot Development]
-  CAT1 --> CAT1_0[📚 osu-mania_bot]
-  CAT1 --> CAT1_1[📚 discord_bot]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[🎮 Games & Fun]
-  CAT2 --> CAT2_0[📚 kurukuru-with-ascii]
-  CAT2 --> CAT2_1[📚 badapple-with-ascii]
-  CAT2 --> CAT2_2[📚 Flappy-bird]
+  A --> CAT2[🤖 Bot Development]
+  CAT2 --> CAT2_0[📚 osu-mania_bot]
+  CAT2 --> CAT2_1[📚 discord_bot]
 
   A --> CAT3[🌐 Web Development]
   CAT3 --> CAT3_0[📚 mytube]
@@ -190,9 +190,9 @@ graph TD
   CAT7 --> CAT7_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT5 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -210,6 +210,20 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
@@ -220,20 +234,6 @@ graph TD
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/reimunyancat/kurukuru-with-ascii">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=kurukuru-with-ascii&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -259,10 +259,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/osu-mania_bot">
+<a href="https://github.com/reimunyancat/badapple-with-ascii">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=osu-mania_bot&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

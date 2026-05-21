@@ -160,23 +160,24 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🌐 Web Development]
+  CAT0 --> CAT0_0[📚 Ephemeris]
+  CAT0 --> CAT0_1[📚 stock-winget]
+  CAT0 --> CAT0_2[📚 DIVE]
+  CAT0 --> CAT0_3[📚 mytube]
 
-  A --> CAT1[🛠️ Tools & Utilities]
-  CAT1 --> CAT1_0[📚 yt-downloader]
-  CAT1 --> CAT1_1[📚 selenium]
-  CAT1 --> CAT1_2[📚 V3-ad-closer]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[📁 Other Projects]
-  CAT2 --> CAT2_0[📚 SubBake]
-  CAT2 --> CAT2_1[📚 resq]
-  CAT2 --> CAT2_2[📚 enigma]
+  A --> CAT2[🛠️ Tools & Utilities]
+  CAT2 --> CAT2_0[📚 yt-downloader]
+  CAT2 --> CAT2_1[📚 selenium]
+  CAT2 --> CAT2_2[📚 V3-ad-closer]
 
-  A --> CAT3[🌐 Web Development]
-  CAT3 --> CAT3_0[📚 stock-winget]
-  CAT3 --> CAT3_1[📚 DIVE]
-  CAT3 --> CAT3_2[📚 mytube]
+  A --> CAT3[📁 Other Projects]
+  CAT3 --> CAT3_0[📚 SubBake]
+  CAT3 --> CAT3_1[📚 resq]
+  CAT3 --> CAT3_2[📚 enigma]
 
   A --> CAT4[🐍 Python Projects]
   CAT4 --> CAT4_0[📚 AudiLex]
@@ -197,10 +198,10 @@ graph TD
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT3 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT5 fill:#7289da,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT6 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -218,44 +219,44 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/Ephemeris">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/yt-downloader">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=yt-downloader&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=yt-downloader&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/SubBake">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SubBake&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SubBake&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/resq">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=resq&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=resq&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/stock-winget">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=stock-winget&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=stock-winget&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/DIVE">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=DIVE&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=DIVE&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -267,10 +268,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/yt-downloader">
+<a href="https://github.com/reimunyancat/Ephemeris">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=yt-downloader&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=yt-downloader&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

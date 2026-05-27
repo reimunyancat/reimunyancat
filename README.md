@@ -160,26 +160,26 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[🎮 Games & Fun]
-  CAT0 --> CAT0_0[📚 badapple-with-ascii]
-  CAT0 --> CAT0_1[📚 kurukuru-with-ascii]
-  CAT0 --> CAT0_2[📚 Flappy-bird]
+  A --> CAT0[📁 Other Projects]
+  CAT0 --> CAT0_0[📚 CrashZero]
+  CAT0 --> CAT0_1[📚 SafeMed]
+  CAT0 --> CAT0_2[📚 SubBake]
+  CAT0 --> CAT0_3[📚 resq]
+  CAT0 --> CAT0_4[📚 enigma]
 
-  A --> CAT1[📁 Other Projects]
-  CAT1 --> CAT1_0[📚 SafeMed]
-  CAT1 --> CAT1_1[📚 SubBake]
-  CAT1 --> CAT1_2[📚 resq]
-  CAT1 --> CAT1_3[📚 enigma]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[⚙️ Profile & Config]
-  CAT2 --> CAT2_0[📚 reimunyancat]
+  A --> CAT2[🎮 Games & Fun]
+  CAT2 --> CAT2_0[📚 badapple-with-ascii]
+  CAT2 --> CAT2_1[📚 kurukuru-with-ascii]
+  CAT2 --> CAT2_2[📚 Flappy-bird]
 
   A --> CAT3[🌐 Web Development]
-  CAT3 --> CAT3_0[📚 CrashZero]
-  CAT3 --> CAT3_1[📚 Ephemeris]
-  CAT3 --> CAT3_2[📚 stock-winget]
-  CAT3 --> CAT3_3[📚 DIVE]
-  CAT3 --> CAT3_4[📚 mytube]
+  CAT3 --> CAT3_0[📚 Ephemeris]
+  CAT3 --> CAT3_1[📚 stock-winget]
+  CAT3 --> CAT3_2[📚 DIVE]
+  CAT3 --> CAT3_3[📚 mytube]
 
   A --> CAT4[🛠️ Tools & Utilities]
   CAT4 --> CAT4_0[📚 yt-downloader]
@@ -200,9 +200,9 @@ graph TD
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT5 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -221,6 +221,20 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/CrashZero">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/reimunyancat">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/badapple-with-ascii">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
@@ -231,20 +245,6 @@ graph TD
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/reimunyancat/reimunyancat">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/CrashZero">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -270,10 +270,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/badapple-with-ascii">
+<a href="https://github.com/reimunyancat/CrashZero">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=badapple-with-ascii&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

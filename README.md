@@ -160,16 +160,16 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📚 CrashZero]
-  CAT0 --> CAT0_1[📚 Ephemeris]
-  CAT0 --> CAT0_2[📚 stock-winget]
-  CAT0 --> CAT0_3[📚 DIVE]
-  CAT0 --> CAT0_4[📚 mytube]
+  A --> CAT0[🐍 Python Projects]
+  CAT0 --> CAT0_0[📚 SafeMed]
+  CAT0 --> CAT0_1[📚 AudiLex]
 
-  A --> CAT1[🐍 Python Projects]
-  CAT1 --> CAT1_0[📚 SafeMed]
-  CAT1 --> CAT1_1[📚 AudiLex]
+  A --> CAT1[🌐 Web Development]
+  CAT1 --> CAT1_0[📚 CrashZero]
+  CAT1 --> CAT1_1[📚 Ephemeris]
+  CAT1 --> CAT1_2[📚 stock-winget]
+  CAT1 --> CAT1_3[📚 DIVE]
+  CAT1 --> CAT1_4[📚 mytube]
 
   A --> CAT2[⚙️ Profile & Config]
   CAT2 --> CAT2_0[📚 reimunyancat]
@@ -200,8 +200,8 @@ graph TD
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -221,16 +221,16 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/CrashZero">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
     <td><a href="https://github.com/reimunyancat/SafeMed">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/CrashZero">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -270,10 +270,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/CrashZero">
+<a href="https://github.com/reimunyancat/SafeMed">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=CrashZero&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

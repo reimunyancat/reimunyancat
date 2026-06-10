@@ -165,12 +165,11 @@ graph TD
 
   A --> CAT1[🌐 Web Development]
   CAT1 --> CAT1_0[📚 Ephemeris]
-  CAT1 --> CAT1_1[📚 wait-for-sale]
-  CAT1 --> CAT1_2[📚 portfolio]
-  CAT1 --> CAT1_3[📚 CrashZero]
-  CAT1 --> CAT1_4[📚 stock-winget]
-  CAT1 --> CAT1_5[📚 DIVE]
-  CAT1 --> CAT1_6[📚 mytube]
+  CAT1 --> CAT1_1[📚 portfolio]
+  CAT1 --> CAT1_2[📚 CrashZero]
+  CAT1 --> CAT1_3[📚 stock-winget]
+  CAT1 --> CAT1_4[📚 DIVE]
+  CAT1 --> CAT1_5[📚 mytube]
 
   A --> CAT2[📁 Other Projects]
   CAT2 --> CAT2_0[📚 hackpad]
@@ -245,24 +244,24 @@ graph TD
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&theme=vue&hide_border=true">
       </picture>
     </a></td>
-    <td><a href="https://github.com/reimunyancat/wait-for-sale">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/portfolio">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=portfolio&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=portfolio&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/SafeMed">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>

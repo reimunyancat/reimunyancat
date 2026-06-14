@@ -161,12 +161,13 @@ graph TD
   A[👤 reimunyancat]
 
   A --> CAT0[🌐 Web Development]
-  CAT0 --> CAT0_0[📚 Ephemeris]
-  CAT0 --> CAT0_1[📚 portfolio]
-  CAT0 --> CAT0_2[📚 CrashZero]
-  CAT0 --> CAT0_3[📚 stock-winget]
-  CAT0 --> CAT0_4[📚 DIVE]
-  CAT0 --> CAT0_5[📚 mytube]
+  CAT0 --> CAT0_0[📚 enigma]
+  CAT0 --> CAT0_1[📚 Ephemeris]
+  CAT0 --> CAT0_2[📚 portfolio]
+  CAT0 --> CAT0_3[📚 CrashZero]
+  CAT0 --> CAT0_4[📚 stock-winget]
+  CAT0 --> CAT0_5[📚 DIVE]
+  CAT0 --> CAT0_6[📚 mytube]
 
   A --> CAT1[⚙️ Profile & Config]
   CAT1 --> CAT1_0[📚 reimunyancat]
@@ -175,7 +176,6 @@ graph TD
   CAT2 --> CAT2_0[📚 hackpad]
   CAT2 --> CAT2_1[📚 SubBake]
   CAT2 --> CAT2_2[📚 resq]
-  CAT2 --> CAT2_3[📚 enigma]
 
   A --> CAT3[🐍 Python Projects]
   CAT3 --> CAT3_0[📚 Artifact]
@@ -224,10 +224,10 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/Ephemeris">
+    <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
@@ -238,30 +238,30 @@ graph TD
     </a></td>
   </tr>
   <tr>
+    <td><a href="https://github.com/reimunyancat/Ephemeris">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
     <td><a href="https://github.com/reimunyancat/hackpad">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&theme=vue&hide_border=true">
       </picture>
     </a></td>
+  </tr>
+  <tr>
     <td><a href="https://github.com/reimunyancat/portfolio">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=portfolio&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=portfolio&theme=vue&hide_border=true">
       </picture>
     </a></td>
-  </tr>
-  <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/SafeMed">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=SafeMed&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>
@@ -273,10 +273,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/Ephemeris">
+<a href="https://github.com/reimunyancat/enigma">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

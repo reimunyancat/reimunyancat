@@ -160,14 +160,14 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[📁 Other Projects]
-  CAT0 --> CAT0_0[📚 enigma]
-  CAT0 --> CAT0_1[📚 hackpad]
-  CAT0 --> CAT0_2[📚 SubBake]
-  CAT0 --> CAT0_3[📚 resq]
+  A --> CAT0[⚙️ Profile & Config]
+  CAT0 --> CAT0_0[📚 reimunyancat]
 
-  A --> CAT1[⚙️ Profile & Config]
-  CAT1 --> CAT1_0[📚 reimunyancat]
+  A --> CAT1[📁 Other Projects]
+  CAT1 --> CAT1_0[📚 enigma]
+  CAT1 --> CAT1_1[📚 hackpad]
+  CAT1 --> CAT1_2[📚 SubBake]
+  CAT1 --> CAT1_3[📚 resq]
 
   A --> CAT2[🐍 Python Projects]
   CAT2 --> CAT2_0[📚 Artifact]
@@ -204,8 +204,8 @@ graph TD
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -225,16 +225,16 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/enigma">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
-      </picture>
-    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+      </picture>
+    </a></td>
+    <td><a href="https://github.com/reimunyancat/enigma">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
       </picture>
     </a></td>
   </tr>

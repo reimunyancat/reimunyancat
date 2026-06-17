@@ -160,19 +160,19 @@
 graph TD
   A[👤 reimunyancat]
 
-  A --> CAT0[🐍 Python Projects]
-  CAT0 --> CAT0_0[📚 Artifact]
-  CAT0 --> CAT0_1[📚 AudiLex]
-  CAT0 --> CAT0_2[📚 SafeMed]
+  A --> CAT0[📁 Other Projects]
+  CAT0 --> CAT0_0[📚 enigma]
+  CAT0 --> CAT0_1[📚 hackpad]
+  CAT0 --> CAT0_2[📚 SubBake]
+  CAT0 --> CAT0_3[📚 resq]
 
   A --> CAT1[⚙️ Profile & Config]
   CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[📁 Other Projects]
-  CAT2 --> CAT2_0[📚 enigma]
-  CAT2 --> CAT2_1[📚 hackpad]
-  CAT2 --> CAT2_2[📚 SubBake]
-  CAT2 --> CAT2_3[📚 resq]
+  A --> CAT2[🐍 Python Projects]
+  CAT2 --> CAT2_0[📚 Artifact]
+  CAT2 --> CAT2_1[📚 AudiLex]
+  CAT2 --> CAT2_2[📚 SafeMed]
 
   A --> CAT3[🌐 Web Development]
   CAT3 --> CAT3_0[📚 Ephemeris]
@@ -204,9 +204,9 @@ graph TD
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
-  style CAT0 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT5 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -225,10 +225,10 @@ graph TD
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/Artifact">
+    <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
@@ -239,10 +239,10 @@ graph TD
     </a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/reimunyancat/enigma">
+    <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/Ephemeris">
@@ -274,10 +274,10 @@ graph TD
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/Artifact">
+<a href="https://github.com/reimunyancat/enigma">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
   </picture>
 </a>
 <!--END_SECTION:latest-->

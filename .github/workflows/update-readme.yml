@@ -51,11 +51,11 @@ jobs:
                 cards += '  <tr>\n';
                 if (latest[i]) {
                   const repoUrl = latest[i].html_url; const repoName = latest[i].name;
-                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n      </picture>\n    </a></td>\n`;
+                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n      </picture>\n    </a></td>\n`;
                 }
                 if (latest[i + 1]) {
                   const repoUrl = latest[i + 1].html_url; const repoName = latest[i + 1].name;
-                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n      </picture>\n    </a></td>\n`;
+                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n      </picture>\n    </a></td>\n`;
                 } else if (latest[i]) {
                   cards += '    <td align="center"><strong style="color:#FF2D7E;">🚧 More Coming Soon! 🚧</strong></td>\n  </tr>\n';
                 }
@@ -63,7 +63,7 @@ jobs:
               let latestCard = '';
               if (recentlyUpdated.length > 0) {
                 const repo = recentlyUpdated[0];
-                latestCard += `<a href="${repo.html_url}">\n  <picture>\n    <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n    <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n  </picture>\n</a>`;
+                latestCard += `<a href="${repo.html_url}">\n  <picture>\n    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n  </picture>\n</a>`;
               }
               function classifyRepo(repo) {
                 const name = repo.name.toLowerCase(); const description = (repo.description || '').toLowerCase(); const language = repo.language || 'Unknown';
@@ -111,7 +111,7 @@ jobs:
 
       - name: Update README
         env:
-          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN 
+          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN  
         run: node update-readme.js
 
       - name: Commit changes

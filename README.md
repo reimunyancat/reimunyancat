@@ -84,7 +84,7 @@
 ### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,cmake" />
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,vercel,cmake" />
 </p>
 
 ### 🗃️ Databases

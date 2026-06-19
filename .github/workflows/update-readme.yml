@@ -46,7 +46,11 @@ jobs:
               const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=100', {
                 'Authorization': 'token ' + process.env.GITHUB_TOKEN,
                 'User-Agent': 'GitHub-Actions'
-              });              const filtered = repos.filter(r => !r.fork && !r.private);
+              });
+              if (!Array.isArray(repos)) {
+                throw new Error('Failed to fetch repositories: ' + JSON.stringify(repos));
+              }
+              const filtered = repos.filter(r => !r.fork && !r.private);
               const latest = filtered.slice(0, 6);
               // Exclude the profile repo from 'Latest Activity'
               const filteredForLatest = filtered.filter(r => r.name !== 'reimunyancat');

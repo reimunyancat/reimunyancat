@@ -21,142 +21,68 @@ jobs:
           cat > update-readme.js << 'EOF'
           const https = require('https');
           const fs = require('fs');
-
           function httpGet(url, headers = {}) {
             return new Promise((resolve, reject) => {
               const req = https.get(url, { headers }, (res) => {
                 let data = '';
                 res.on('data', chunk => data += chunk);
                 res.on('end', () => {
-                  try {
-                    resolve(JSON.parse(data));
-                  } catch (err) {
-                    reject(err);
-                  }
+                  try { resolve(JSON.parse(data)); } catch (err) { reject(err); }
                 });
               });
               req.on('error', reject);
             });
           }
-
           const PIN = 'hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117';
-
           (async () => {
             try {
               const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=100', {
                 'Authorization': 'token ' + process.env.GITHUB_TOKEN,
                 'User-Agent': 'GitHub-Actions'
               });
-              if (!Array.isArray(repos)) {
-                throw new Error('Failed to fetch repositories: ' + JSON.stringify(repos));
-              }
+              if (!Array.isArray(repos)) throw new Error('Failed to fetch repositories: ' + JSON.stringify(repos));
               const filtered = repos.filter(r => !r.fork && !r.private);
               const latest = filtered.slice(0, 6);
-              // Exclude the profile repo from 'Latest Activity'
               const filteredForLatest = filtered.filter(r => r.name !== 'reimunyancat');
-              const recentlyUpdated = filteredForLatest.slice(0, 1); // For Latest Activity section (only 1 most recent)
-              
+              const recentlyUpdated = filteredForLatest.slice(0, 1);
               let readme = fs.readFileSync('README.md', 'utf8');
-                // Generate repository cards with dark mode support
               let cards = '';
               for (let i = 0; i < latest.length; i += 2) {
                 cards += '  <tr>\n';
                 if (latest[i]) {
-                  const repoUrl = latest[i].html_url;
-                  const repoName = latest[i].name;
-                  cards += `    <td><a href="${repoUrl}">\n`;
-                  cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `      </picture>\n`;
-                  cards += `    </a></td>\n`;
+                  const repoUrl = latest[i].html_url; const repoName = latest[i].name;
+                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n      </picture>\n    </a></td>\n`;
                 }
                 if (latest[i + 1]) {
-                  const repoUrl = latest[i + 1].html_url;
-                  const repoName = latest[i + 1].name;
-                  cards += `    <td><a href="${repoUrl}">\n`;
-                  cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `      </picture>\n`;
-                  cards += `    </a></td>\n`;
+                  const repoUrl = latest[i + 1].html_url; const repoName = latest[i + 1].name;
+                  cards += `    <td><a href="${repoUrl}">\n      <picture>\n        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n      </picture>\n    </a></td>\n`;
                 } else if (latest[i]) {
-                  cards += '    <td align="center"><strong style="color:#FF2D7E;">🚧 More Coming Soon! 🚧</strong></td>\n';
+                  cards += '    <td align="center"><strong style="color:#FF2D7E;">🚧 More Coming Soon! 🚧</strong></td>\n  </tr>\n';
                 }
-                cards += '  </tr>\n';              }
-                // Generate Latest Activity card (only 1 most recent)
+              }
               let latestCard = '';
               if (recentlyUpdated.length > 0) {
                 const repo = recentlyUpdated[0];
-                latestCard += `<a href="${repo.html_url}">\n`;
-                latestCard += `  <picture>\n`;
-                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
-                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
-                latestCard += `  </picture>\n`;
-                latestCard += `</a>`;
+                latestCard += `<a href="${repo.html_url}">\n  <picture>\n    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n  </picture>\n</a>`;
               }
-                // Classify repositories by type
               function classifyRepo(repo) {
-                const name = repo.name.toLowerCase();
-                const description = (repo.description || '').toLowerCase();
-                const language = repo.language || 'Unknown';
-                
-                if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || 
-                    name.includes('kurukuru') || name.includes('flappy') || name.includes('bird') ||
-                    description.includes('game') || description.includes('entertainment') ||
-                    description.includes('ascii')) {
-                  return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
-                }
-                if (name.includes('web') || name.includes('site') || name.includes('clone') || 
-                    name.includes('wetube') || name.includes('youtube') ||
-                    description.includes('web') || description.includes('website') || 
-                    ['JavaScript', 'TypeScript', 'HTML', 'CSS'].includes(language)) {
-                  return { category: 'Web Development', icon: '🌐', color: '#61dafb' };
-                }
-                if (name.includes('tool') || name.includes('util') || name.includes('script') || 
-                    name.includes('closer') || name.includes('helper') || name.includes('downloader') ||
-                    name.includes('selenium') || name.includes('v3') ||
-                    description.includes('tool') || description.includes('utility') ||
-                    description.includes('automation')) {
-                  return { category: 'Tools & Utilities', icon: '🛠️', color: '#ffa500' };
-                }
-                if (name.includes('ai') || name.includes('ml') || name.includes('neural') || 
-                    name.includes('detection') || name.includes('fighter') ||
-                    description.includes('machine learning') || description.includes('artificial intelligence') ||
-                    description.includes('detection') || description.includes('ai')) {
-                  return { category: 'AI & ML', icon: '🤖', color: '#9c88ff' };
-                }
-                if (name.includes('baekjoon') || name.includes('algorithm') || name.includes('coding') ||
-                    name.includes('leetcode') || name.includes('programmers') ||
-                    description.includes('algorithm') || description.includes('problem solving')) {
-                  return { category: 'Algorithm & PS', icon: '🧮', color: '#e74c3c' };
-                }
-                if (name.includes('bot') || name.includes('discord') ||
-                    description.includes('bot') || description.includes('discord')) {
-                  return { category: 'Bot Development', icon: '🤖', color: '#7289da' };
-                }
-                if (['C++', 'C#', 'Java'].includes(language) && 
-                    (description.includes('app') || description.includes('desktop'))) {
-                  return { category: 'Desktop Apps', icon: '💻', color: '#4ecdc4' };
-                }
-                if (name.includes('config') || name.includes('dotfiles') || name.includes('setup') ||
-                    name === 'reimunyancat' || description.includes('profile')) {
-                  return { category: 'Profile & Config', icon: '⚙️', color: '#95a5a6' };
-                }
-                if (language === 'Python') {
-                  return { category: 'Python Projects', icon: '🐍', color: '#3776ab' };
-                }
-                if (['JavaScript', 'TypeScript'].includes(language)) {
-                  return { category: 'JS/TS Projects', icon: '💛', color: '#f7df1e' };
-                }
+                const name = repo.name.toLowerCase(); const description = (repo.description || '').toLowerCase(); const language = repo.language || 'Unknown';
+                if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || name.includes('kurukuru') || name.includes('flappy') || name.includes('bird') || description.includes('game') || description.includes('entertainment') || description.includes('ascii')) return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
+                if (name.includes('web') || name.includes('site') || name.includes('clone') || name.includes('wetube') || name.includes('youtube') || description.includes('web') || description.includes('website') || ['JavaScript', 'TypeScript', 'HTML', 'CSS'].includes(language)) return { category: 'Web Development', icon: '🌐', color: '#61dafb' };
+                if (name.includes('tool') || name.includes('util') || name.includes('script') || name.includes('closer') || name.includes('helper') || name.includes('downloader') || name.includes('selenium') || name.includes('v3') || description.includes('tool') || description.includes('utility') || description.includes('automation')) return { category: 'Tools & Utilities', icon: '🛠️', color: '#ffa500' };
+                if (name.includes('ai') || name.includes('ml') || name.includes('neural') || name.includes('detection') || name.includes('fighter') || description.includes('machine learning') || description.includes('artificial intelligence') || description.includes('detection') || description.includes('ai')) return { category: 'AI & ML', icon: '🤖', color: '#9c88ff' };
+                if (name.includes('baekjoon') || name.includes('algorithm') || name.includes('coding') || name.includes('leetcode') || name.includes('programmers') || description.includes('algorithm') || description.includes('problem solving')) return { category: 'Algorithm & PS', icon: '🧮', color: '#e74c3c' };
+                if (name.includes('bot') || name.includes('discord') || description.includes('bot') || description.includes('discord')) return { category: 'Bot Development', icon: '🤖', color: '#7289da' };
+                if (['C++', 'C#', 'Java'].includes(language) && (description.includes('app') || description.includes('desktop'))) return { category: 'Desktop Apps', icon: '💻', color: '#4ecdc4' };
+                if (name.includes('config') || name.includes('dotfiles') || name.includes('setup') || name === 'reimunyancat' || description.includes('profile')) return { category: 'Profile & Config', icon: '⚙️', color: '#95a5a6' };
+                if (language === 'Python') return { category: 'Python Projects', icon: '🐍', color: '#3776ab' };
+                if (['JavaScript', 'TypeScript'].includes(language)) return { category: 'JS/TS Projects', icon: '💛', color: '#f7df1e' };
                 return { category: 'Other Projects', icon: '📁', color: '#FF2D7E' };
               }
               const categories = {};
               filtered.forEach(repo => {
                 const classification = classifyRepo(repo);
-                if (!categories[classification.category]) {
-                  categories[classification.category] = { ...classification, repos: [] };
-                }
+                if (!categories[classification.category]) categories[classification.category] = { ...classification, repos: [] };
                 categories[classification.category].repos.push(repo);
               });
               let mermaidDiagram = 'graph LR\n  A[👤 reimunyancat]\n\n';
@@ -165,22 +91,15 @@ jobs:
                 const categoryId = `CAT${nodeIndex}`;
                 mermaidDiagram += `  A --> ${categoryId}[${data.icon} ${categoryName}]\n`;
                 data.repos.forEach((repo, i) => {
-                  const repoId = `${categoryId}_${i}`;
-                  mermaidDiagram += `  ${categoryId} --> ${repoId}[📚 ${repo.name}]\n`;
+                  mermaidDiagram += `  ${categoryId} --> ${categoryId}_${i}[📚 ${repo.name}]\n`;
                 });
-                mermaidDiagram += '\n';
-                nodeIndex++;
+                mermaidDiagram += '\n'; nodeIndex++;
               });
               mermaidDiagram += '  style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff\n';
-              Object.entries(categories).forEach(([_, data], i) => {
-                mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;
-              });
-              const repoSection = `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`;
-              readme = readme.replace(/<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/, repoSection);
-              const latestSection = `<!--START_SECTION:latest-->\n${latestCard}\n<!--END_SECTION:latest-->`;
-              readme = readme.replace(/<!--START_SECTION:latest-->[\s\S]*?<!--END_SECTION:latest-->/, latestSection);
-              const structureSection = `<!--START_SECTION:structure-->\n\`\`\`mermaid\n${mermaidDiagram}\`\`\`\n<!--END_SECTION:structure-->`;
-              readme = readme.replace(/<!--START_SECTION:structure-->[\s\S]*?<!--END_SECTION:structure-->/, structureSection);
+              Object.entries(categories).forEach(([_, data], i) => { mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`; });
+              readme = readme.replace(/<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/, `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`);
+              readme = readme.replace(/<!--START_SECTION:latest-->[\s\S]*?<!--END_SECTION:latest-->/, `<!--START_SECTION:latest-->\n${latestCard}\n<!--END_SECTION:latest-->`);
+              readme = readme.replace(/<!--START_SECTION:structure-->[\s\S]*?<!--END_SECTION:structure-->/, `<!--START_SECTION:structure-->\n\`\`\`mermaid\n${mermaidDiagram}\`\`\`\n<!--END_SECTION:structure-->`);
               fs.writeFileSync('README.md', readme);
               console.log('✅ README updated successfully!');
             } catch (error) {

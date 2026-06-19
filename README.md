@@ -1,4 +1,4 @@
-p[<div align="center">
+<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:27ae60&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
 

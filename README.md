@@ -157,7 +157,7 @@
 
 <!--START_SECTION:structure-->
 ```mermaid
-graph TD
+graph LR
   A[👤 reimunyancat]
 
   A --> CAT0[⚙️ Profile & Config]
@@ -236,7 +236,6 @@ graph TD
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-  </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
@@ -250,7 +249,6 @@ graph TD
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-  </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/wait-for-sale">
       <picture>
@@ -264,7 +262,6 @@ graph TD
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-  </tr>
 </table>
 <!--END_SECTION:repos-->
 

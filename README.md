@@ -78,13 +78,13 @@
 ### 🌐 Frameworks & Libraries
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,solidjs,nodejs,express,threejs,tauri,vite,tailwind,prisma,pytorch" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,solidjs,nodejs,express,threejs,tauri,vite,tailwind,pytorch" />
 </p>
 
 ### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,vercel,cmake" />
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,cmake" />
 </p>
 
 ### 🗃️ Databases

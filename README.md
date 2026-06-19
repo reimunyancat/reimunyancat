@@ -84,7 +84,7 @@
 ### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,cmake" />
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,vercel,cmake" />
 </p>
 
 ### 🗃️ Databases
@@ -124,9 +124,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-night-green.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green.svg">
-  <img alt="3D Contributions" src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-green-animate.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-customize.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-customize.svg">
+  <img alt="3D Contributions" src="https://raw.githubusercontent.com/reimunyancat/reimunyancat/main/profile-3d-contrib/profile-customize.svg" width="100%">
 </picture>
 
 </div>

@@ -66,8 +66,8 @@ jobs:
                   const repoName = latest[i].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
+                  cards += `        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 }
@@ -76,8 +76,8 @@ jobs:
                   const repoName = latest[i + 1].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
+                  cards += `        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 } else if (latest[i]) {
@@ -90,8 +90,8 @@ jobs:
                 const repo = recentlyUpdated[0];
                 latestCard += `<a href="${repo.html_url}">\n`;
                 latestCard += `  <picture>\n`;
-                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
-                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
+                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n`;
+                latestCard += `    <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n`;
                 latestCard += `  </picture>\n`;
                 latestCard += `</a>`;
               }

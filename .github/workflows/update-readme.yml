@@ -39,6 +39,8 @@ jobs:
             });
           }
 
+          const PIN = 'hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117';
+
           (async () => {
             try {
               const repos = await httpGet('https://api.github.com/users/reimunyancat/repos?sort=updated&per_page=100', {
@@ -60,8 +62,8 @@ jobs:
                   const repoName = latest[i].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 }
@@ -70,8 +72,8 @@ jobs:
                   const repoName = latest[i + 1].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 } else if (latest[i]) {
@@ -84,8 +86,8 @@ jobs:
                 const repo = recentlyUpdated[0];
                 latestCard += `<a href="${repo.html_url}">\n`;
                 latestCard += `  <picture>\n`;
-                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
-                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
+                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
                 latestCard += `  </picture>\n`;
                 latestCard += `</a>`;
               }
@@ -179,7 +181,7 @@ jobs:
                 categories[classification.category].repos.push(repo);
               });
                 // Generate Mermaid diagram
-              let mermaidDiagram = 'graph TD\n';
+              let mermaidDiagram = 'graph LR\n';
               mermaidDiagram += '  A[👤 reimunyancat]\n\n';
               
               let nodeIndex = 0;
@@ -233,7 +235,7 @@ jobs:
 
       - name: Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN 
         run: node update-readme.js
 
       - name: Commit changes

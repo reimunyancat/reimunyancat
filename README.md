@@ -43,7 +43,7 @@
 <tr>
   <td>🌱</td>
   <td><b>Currently Learning</b></td>
-  <td>C++, Python, TypeScript</td>
+  <td>C++, Python, Rust, TypeScript</td>
 </tr>
 <tr>
   <td>🎯</td>
@@ -156,6 +156,7 @@
 </div>
 
 <!--START_SECTION:structure-->
+
 ```mermaid
 graph TD
   A[👤 reimunyancat]
@@ -213,6 +214,7 @@ graph TD
   style CAT7 fill:#e74c3c,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT8 fill:#9c88ff,stroke:#2c3e50,stroke-width:2px,color:#fff
 ```
+
 <!--END_SECTION:structure-->
 
 ## 💼 My Projects

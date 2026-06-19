@@ -60,8 +60,8 @@ jobs:
                   const repoName = latest[i].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=dark&hide_border=true">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 }
@@ -70,12 +70,12 @@ jobs:
                   const repoName = latest[i + 1].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=dark&hide_border=true">\n`;
-                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&theme=vue&hide_border=true">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 } else if (latest[i]) {
-                  cards += '    <td align="center"><strong style="color:#00b894;">🚧 More Coming Soon! 🚧</strong></td>\n';
+                  cards += '    <td align="center"><strong style="color:#FF2D7E;">🚧 More Coming Soon! 🚧</strong></td>\n';
                 }
                 cards += '  </tr>\n';              }
                 // Generate Latest Activity card (only 1 most recent)
@@ -84,8 +84,8 @@ jobs:
                 const repo = recentlyUpdated[0];
                 latestCard += `<a href="${repo.html_url}">\n`;
                 latestCard += `  <picture>\n`;
-                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&theme=dark&hide_border=true">\n`;
-                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&theme=vue&hide_border=true">\n`;
+                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
+                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">\n`;
                 latestCard += `  </picture>\n`;
                 latestCard += `</a>`;
               }
@@ -164,7 +164,7 @@ jobs:
                 }
                 
                 // Default category
-                return { category: 'Other Projects', icon: '📁', color: '#00b894' };
+                return { category: 'Other Projects', icon: '📁', color: '#FF2D7E' };
               }
                 // Generate repository structure
               const categories = {};
@@ -196,7 +196,7 @@ jobs:
               });
               
               // Enhanced styling with gradients and animations
-              mermaidDiagram += '  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff\n';
+              mermaidDiagram += '  style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff\n';
               
               Object.entries(categories).forEach(([_, data], i) => {
                 mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;

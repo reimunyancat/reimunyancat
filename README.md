@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:27ae60&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D7E,100:3BD6FF&height=250&section=header&text=reimunyancat&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38"/>
 </div>
 
 <!-- <p align="center">
@@ -8,14 +8,14 @@
 
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=10&color=00b894&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=3000&pause=10&color=FF2D7E&background=00000000&center=true&vCenter=true&multiline=true&width=800&height=100&lines=👋+Hi%2C+I'm+reimunyancat!;🎓+Student+%7C+💻+Developer)](https://git.io/typing-svg)
 
 </div>
 
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=00b894&style=for-the-badge&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=27ae60)](https://github.com/reimunyancat)
+![Profile Views](https://komarev.com/ghpvc/?username=reimunyancat&color=FF2D7E&style=for-the-badge&label=Profile+Views)
+[![GitHub followers](https://img.shields.io/github/followers/reimunyancat?style=for-the-badge&color=3BD6FF)](https://github.com/reimunyancat)
 
 </div>
 
@@ -25,14 +25,14 @@
   
 ### 🌟 Quick Stats
   
-[![trophy](https://github-trophies.vercel.app/?username=reimunyancat&theme=algolia&no-frame=true&no-bg=false&margin-w=4&column=7)](https://github.com/reimunyancat)
+[![trophy](https://github-trophies.vercel.app/?username=reimunyancat&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7)](https://github.com/reimunyancat)
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2D7E,100:3BD6FF&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🧑‍💻 About Me
@@ -62,7 +62,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2D7E,100:3BD6FF&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🚀 Tech Stack & Tools
@@ -104,21 +104,21 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2D7E,100:3BD6FF&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 📊 GitHub Stats
 
 <div align="center">
   
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&theme=vue&hide_border=true&count_private=true" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=reimunyancat&theme=vue&hide_border=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=reimunyancat&show_icons=true&hide_border=true&count_private=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=reimunyancat&hide_border=true&background=0D1117&border=30363D&stroke=3BD6FF&ring=FF2D7E&fire=FF2D7E&currStreakNum=FFFFFF&sideNums=C9D1D9&currStreakLabel=FF2D7E&sideLabels=3BD6FF&dates=8B949E" />
 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&theme=vue&layout=compact&hide_border=true&langs_count=8" />
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reimunyancat&layout=compact&hide_border=true&langs_count=8&title_color=FF2D7E&text_color=c9d1d9&bg_color=0D1117" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=github-compact&hide_border=true&area=true&bg_color=0D1117&color=00b894&line=55a3ff&point=ffffff">
-  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&theme=vue&hide_border=true&area=true&bg_color=ffffff&color=00b894&line=55a3ff&point=2d3748" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&hide_border=true&area=true&bg_color=0D1117&color=FF2D7E&line=3BD6FF&point=FFFFFF&title_color=FF2D7E">
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=reimunyancat&hide_border=true&area=true&bg_color=0D1117&color=FF2D7E&line=3BD6FF&point=FFFFFF&title_color=FF2D7E" width="100%">
 </picture>
 
 <div align="center">
@@ -144,7 +144,7 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2D7E,100:3BD6FF&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 🏗️ Repository Structure
@@ -202,9 +202,9 @@ graph TD
   A --> CAT8[🤖 AI & ML]
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
-  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
+  style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff
   style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#FF2D7E,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -226,42 +226,42 @@ graph TD
   <tr>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/Ephemeris">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/wait-for-sale">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/AudiLex">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
@@ -275,8 +275,8 @@ graph TD
 <!--START_SECTION:latest-->
 <a href="https://github.com/reimunyancat/enigma">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
   </picture>
 </a>
 <!--END_SECTION:latest-->
@@ -286,7 +286,7 @@ graph TD
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b894,100:27ae60&height=2&section=header&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF2D7E,100:3BD6FF&height=2&section=header&reversal=false" width="100%"/>
 </div>
 
 ## 📫 Connect with Me
@@ -314,6 +314,6 @@ graph TD
   
 **Thanks for visiting my profile! 🚀**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b894,100:27ae60&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2D7E,100:3BD6FF&height=120&section=footer"/>
 
 </div>

@@ -225,7 +225,7 @@ jobs:
 
       - name: Update README
         env:
-          GITHUB_TOKEN: $ secrets.GITHUB_TOKEN
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: node update-readme.js
 
       - name: Commit changes

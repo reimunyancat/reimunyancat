@@ -72,25 +72,25 @@
 ### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,cs,python,javascript,typescript" />
+  <img src="https://skillicons.dev/icons?i=cpp,c,cs,rust,python,javascript,typescript" />
 </p>
 
 ### 🌐 Frameworks & Libraries
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,solidjs,nodejs,express,threejs,tauri,vite,tailwind,prisma,pytorch" />
 </p>
 
 ### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,git,github" />
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,git,github,docker,vercel,cmake" />
 </p>
 
 ### 🗃️ Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,sqlite" />
 </p>
 
 ### 🖥️ Operating Systems

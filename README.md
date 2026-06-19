@@ -72,7 +72,7 @@
 ### 💻 Programming Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cpp,c,cs,rust,python,javascript,typescript" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,cs,rust,python,javascript,typescript" />
 </p>
 
 ### 🌐 Frameworks & Libraries
@@ -84,13 +84,13 @@
 ### 🛠️ Development Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,git,github,docker,vercel,cmake" />
+  <img src="https://skillicons.dev/icons?i=vscode,clion,pycharm,neovim,git,github,cmake" />
 </p>
 
 ### 🗃️ Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,sqlite" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres" />
 </p>
 
 ### 🖥️ Operating Systems

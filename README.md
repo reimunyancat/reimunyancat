@@ -202,9 +202,9 @@ graph TD
   A --> CAT8[🤖 AI & ML]
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
-  style A fill:#00b894,stroke:#55a3ff,stroke-width:4px,color:#fff
+  style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff
   style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#00b894,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#FF2D7E,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT2 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -226,42 +226,42 @@ graph TD
   <tr>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/Ephemeris">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
   <tr>
     <td><a href="https://github.com/reimunyancat/wait-for-sale">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
     <td><a href="https://github.com/reimunyancat/AudiLex">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&theme=dark&hide_border=true">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&theme=vue&hide_border=true">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=AudiLex&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   </tr>
@@ -275,8 +275,8 @@ graph TD
 <!--START_SECTION:latest-->
 <a href="https://github.com/reimunyancat/enigma">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&theme=vue&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
   </picture>
 </a>
 <!--END_SECTION:latest-->

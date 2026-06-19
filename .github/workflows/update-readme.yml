@@ -66,8 +66,8 @@ jobs:
                   const repoName = latest[i].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
-                  cards += `        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 }
@@ -76,8 +76,8 @@ jobs:
                   const repoName = latest[i + 1].name;
                   cards += `    <td><a href="${repoUrl}">\n`;
                   cards += `      <picture>\n`;
-                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
-                  cards += `        <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}}}&${PIN}">\n`;
+                  cards += `        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
+                  cards += `        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repoName}&${PIN}">\n`;
                   cards += `      </picture>\n`;
                   cards += `    </a></td>\n`;
                 } else if (latest[i]) {
@@ -90,8 +90,8 @@ jobs:
                 const repo = recentlyUpdated[0];
                 latestCard += `<a href="${repo.html_url}">\n`;
                 latestCard += `  <picture>\n`;
-                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n`;
-                latestCard += `    <img src="{{https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}}}&${PIN}">\n`;
+                latestCard += `    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
+                latestCard += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=${repo.name}&${PIN}">\n`;
                 latestCard += `  </picture>\n`;
                 latestCard += `</a>`;
               }
@@ -101,23 +101,18 @@ jobs:
                 const description = (repo.description || '').toLowerCase();
                 const language = repo.language || 'Unknown';
                 
-                // Games & Entertainment (우선순위 높음)
                 if (name.includes('game') || name.includes('ascii') || name.includes('badapple') || 
                     name.includes('kurukuru') || name.includes('flappy') || name.includes('bird') ||
                     description.includes('game') || description.includes('entertainment') ||
                     description.includes('ascii')) {
                   return { category: 'Games & Fun', icon: '🎮', color: '#ff6b6b' };
                 }
-                
-                // Web Development
                 if (name.includes('web') || name.includes('site') || name.includes('clone') || 
                     name.includes('wetube') || name.includes('youtube') ||
                     description.includes('web') || description.includes('website') || 
                     ['JavaScript', 'TypeScript', 'HTML', 'CSS'].includes(language)) {
                   return { category: 'Web Development', icon: '🌐', color: '#61dafb' };
                 }
-                
-                // Tools & Utilities
                 if (name.includes('tool') || name.includes('util') || name.includes('script') || 
                     name.includes('closer') || name.includes('helper') || name.includes('downloader') ||
                     name.includes('selenium') || name.includes('v3') ||
@@ -125,111 +120,69 @@ jobs:
                     description.includes('automation')) {
                   return { category: 'Tools & Utilities', icon: '🛠️', color: '#ffa500' };
                 }
-                
-                // AI & Machine Learning
                 if (name.includes('ai') || name.includes('ml') || name.includes('neural') || 
                     name.includes('detection') || name.includes('fighter') ||
                     description.includes('machine learning') || description.includes('artificial intelligence') ||
                     description.includes('detection') || description.includes('ai')) {
                   return { category: 'AI & ML', icon: '🤖', color: '#9c88ff' };
                 }
-                
-                // Algorithm & Problem Solving
                 if (name.includes('baekjoon') || name.includes('algorithm') || name.includes('coding') ||
                     name.includes('leetcode') || name.includes('programmers') ||
                     description.includes('algorithm') || description.includes('problem solving')) {
                   return { category: 'Algorithm & PS', icon: '🧮', color: '#e74c3c' };
                 }
-                
-                // Bot Development
                 if (name.includes('bot') || name.includes('discord') ||
                     description.includes('bot') || description.includes('discord')) {
                   return { category: 'Bot Development', icon: '🤖', color: '#7289da' };
                 }
-                
-                // Desktop Applications
                 if (['C++', 'C#', 'Java'].includes(language) && 
                     (description.includes('app') || description.includes('desktop'))) {
                   return { category: 'Desktop Apps', icon: '💻', color: '#4ecdc4' };
                 }
-                
-                // Configuration & Profile
                 if (name.includes('config') || name.includes('dotfiles') || name.includes('setup') ||
                     name === 'reimunyancat' || description.includes('profile')) {
                   return { category: 'Profile & Config', icon: '⚙️', color: '#95a5a6' };
                 }
-                
-                // Python Projects
                 if (language === 'Python') {
                   return { category: 'Python Projects', icon: '🐍', color: '#3776ab' };
                 }
-                
-                // JavaScript/TypeScript Projects
                 if (['JavaScript', 'TypeScript'].includes(language)) {
                   return { category: 'JS/TS Projects', icon: '💛', color: '#f7df1e' };
                 }
-                
-                // Default category
                 return { category: 'Other Projects', icon: '📁', color: '#FF2D7E' };
               }
-                // Generate repository structure
               const categories = {};
               filtered.forEach(repo => {
                 const classification = classifyRepo(repo);
                 if (!categories[classification.category]) {
-                  categories[classification.category] = {
-                    ...classification,
-                    repos: []
-                  };
+                  categories[classification.category] = { ...classification, repos: [] };
                 }
                 categories[classification.category].repos.push(repo);
               });
-                // Generate Mermaid diagram
-              let mermaidDiagram = 'graph LR\n';
-              mermaidDiagram += '  A[👤 reimunyancat]\n\n';
-              
+              let mermaidDiagram = 'graph LR\n  A[👤 reimunyancat]\n\n';
               let nodeIndex = 0;
               Object.entries(categories).forEach(([categoryName, data]) => {
                 const categoryId = `CAT${nodeIndex}`;
                 mermaidDiagram += `  A --> ${categoryId}[${data.icon} ${categoryName}]\n`;
-                  data.repos.forEach((repo, i) => {
+                data.repos.forEach((repo, i) => {
                   const repoId = `${categoryId}_${i}`;
                   mermaidDiagram += `  ${categoryId} --> ${repoId}[📚 ${repo.name}]\n`;
                 });
-                
                 mermaidDiagram += '\n';
                 nodeIndex++;
               });
-              
-              // Enhanced styling with gradients and animations
               mermaidDiagram += '  style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff\n';
-              
               Object.entries(categories).forEach(([_, data], i) => {
                 mermaidDiagram += `  style CAT${i} fill:${data.color},stroke:#2c3e50,stroke-width:2px,color:#fff\n`;
               });
-                // Update README sections
               const repoSection = `<!--START_SECTION:repos-->\n<table>\n${cards}</table>\n<!--END_SECTION:repos-->`;
-              readme = readme.replace(
-                /<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/,
-                repoSection
-              );
-                // Update Latest Activity section
+              readme = readme.replace(/<!--START_SECTION:repos-->[\s\S]*?<!--END_SECTION:repos-->/, repoSection);
               const latestSection = `<!--START_SECTION:latest-->\n${latestCard}\n<!--END_SECTION:latest-->`;
-              readme = readme.replace(
-                /<!--START_SECTION:latest-->[\s\S]*?<!--END_SECTION:latest-->/,
-                latestSection
-              );
-              
-              // Update repository structure
+              readme = readme.replace(/<!--START_SECTION:latest-->[\s\S]*?<!--END_SECTION:latest-->/, latestSection);
               const structureSection = `<!--START_SECTION:structure-->\n\`\`\`mermaid\n${mermaidDiagram}\`\`\`\n<!--END_SECTION:structure-->`;
-              readme = readme.replace(
-                /<!--START_SECTION:structure-->[\s\S]*?<!--END_SECTION:structure-->/,
-                structureSection
-              );
-              
+              readme = readme.replace(/<!--START_SECTION:structure-->[\s\S]*?<!--END_SECTION:structure-->/, structureSection);
               fs.writeFileSync('README.md', readme);
               console.log('✅ README updated successfully!');
-              
             } catch (error) {
               console.error('❌ Error:', error.message);
               process.exit(1);

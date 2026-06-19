@@ -25,7 +25,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add profile-3d-contrib/
-          git diff --staged --quiet || git commit -m "🎯 Update 3D profile"
+          git diff --staged --quiet || git commit -m "3"
 
       - name: Push changes
         uses: ad-m/github-push-action@master

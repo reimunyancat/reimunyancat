@@ -161,10 +161,11 @@ graph LR
   A[👤 reimunyancat]
 
   A --> CAT0[📁 Other Projects]
-  CAT0 --> CAT0_0[📚 drop]
-  CAT0 --> CAT0_1[📚 enigma]
-  CAT0 --> CAT0_2[📚 hackpad]
-  CAT0 --> CAT0_3[📚 SubBake]
+  CAT0 --> CAT0_0[📚 PrismaOS]
+  CAT0 --> CAT0_1[📚 Drop]
+  CAT0 --> CAT0_2[📚 enigma]
+  CAT0 --> CAT0_3[📚 hackpad]
+  CAT0 --> CAT0_4[📚 SubBake]
 
   A --> CAT1[⚙️ Profile & Config]
   CAT1 --> CAT1_0[📚 reimunyancat]
@@ -225,16 +226,16 @@ graph LR
 <!--START_SECTION:repos-->
 <table>
   <tr>
-    <td><a href="https://github.com/reimunyancat/drop">
+    <td><a href="https://github.com/reimunyancat/PrismaOS">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=PrismaOS&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=PrismaOS&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-    <td><a href="https://github.com/reimunyancat/enigma">
+    <td><a href="https://github.com/reimunyancat/Drop">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   <tr>
@@ -244,23 +245,23 @@ graph LR
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
+    <td><a href="https://github.com/reimunyancat/enigma">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+      </picture>
+    </a></td>
+  <tr>
     <td><a href="https://github.com/reimunyancat/Artifact">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Artifact&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-  <tr>
     <td><a href="https://github.com/reimunyancat/Ephemeris">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Ephemeris&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/wait-for-sale">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=wait-for-sale&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
 </table>
@@ -271,10 +272,10 @@ graph LR
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/drop">
+<a href="https://github.com/reimunyancat/PrismaOS">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=drop&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=PrismaOS&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=PrismaOS&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
   </picture>
 </a>
 <!--END_SECTION:latest-->

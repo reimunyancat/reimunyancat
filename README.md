@@ -159,20 +159,20 @@
 graph LR
   A[👤 reimunyancat]
 
-  A --> CAT0[⚙️ Profile & Config]
-  CAT0 --> CAT0_0[📚 reimunyancat]
+  A --> CAT0[🐍 Python Projects]
+  CAT0 --> CAT0_0[📚 hackpad]
+  CAT0 --> CAT0_1[📚 Artifact]
+  CAT0 --> CAT0_2[📚 AudiLex]
+  CAT0 --> CAT0_3[📚 SafeMed]
 
-  A --> CAT1[📁 Other Projects]
-  CAT1 --> CAT1_0[📚 enigma]
-  CAT1 --> CAT1_1[📚 Flit]
-  CAT1 --> CAT1_2[📚 PrismaOS]
-  CAT1 --> CAT1_3[📚 SubBake]
+  A --> CAT1[⚙️ Profile & Config]
+  CAT1 --> CAT1_0[📚 reimunyancat]
 
-  A --> CAT2[🐍 Python Projects]
-  CAT2 --> CAT2_0[📚 hackpad]
-  CAT2 --> CAT2_1[📚 Artifact]
-  CAT2 --> CAT2_2[📚 AudiLex]
-  CAT2 --> CAT2_3[📚 SafeMed]
+  A --> CAT2[📁 Other Projects]
+  CAT2 --> CAT2_0[📚 enigma]
+  CAT2 --> CAT2_1[📚 Flit]
+  CAT2 --> CAT2_2[📚 PrismaOS]
+  CAT2 --> CAT2_3[📚 SubBake]
 
   A --> CAT3[🌐 Web Development]
   CAT3 --> CAT3_0[📚 Ephemeris]
@@ -204,9 +204,9 @@ graph LR
   CAT8 --> CAT8_0[📚 jet-fighter-detection]
 
   style A fill:#FF2D7E,stroke:#3BD6FF,stroke-width:4px,color:#fff
-  style CAT0 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT1 fill:#FF2D7E,stroke:#2c3e50,stroke-width:2px,color:#fff
-  style CAT2 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT0 fill:#3776ab,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT1 fill:#95a5a6,stroke:#2c3e50,stroke-width:2px,color:#fff
+  style CAT2 fill:#FF2D7E,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT3 fill:#61dafb,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT4 fill:#ff6b6b,stroke:#2c3e50,stroke-width:2px,color:#fff
   style CAT5 fill:#ffa500,stroke:#2c3e50,stroke-width:2px,color:#fff
@@ -225,29 +225,29 @@ graph LR
 <!--START_SECTION:repos-->
 <table>
   <tr>
+    <td><a href="https://github.com/reimunyancat/hackpad">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+      </picture>
+    </a></td>
     <td><a href="https://github.com/reimunyancat/reimunyancat">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=reimunyancat&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
+  <tr>
     <td><a href="https://github.com/reimunyancat/enigma">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
-  <tr>
     <td><a href="https://github.com/reimunyancat/Flit">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Flit&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=Flit&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-      </picture>
-    </a></td>
-    <td><a href="https://github.com/reimunyancat/hackpad">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
       </picture>
     </a></td>
   <tr>
@@ -271,10 +271,10 @@ graph LR
 <div align="center">
 
 <!--START_SECTION:latest-->
-<a href="https://github.com/reimunyancat/enigma">
+<a href="https://github.com/reimunyancat/hackpad">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=enigma&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=reimunyancat&repo=hackpad&hide_border=true&title_color=FF2D7E&icon_color=3BD6FF&text_color=c9d1d9&bg_color=0D1117">
   </picture>
 </a>
 <!--END_SECTION:latest-->

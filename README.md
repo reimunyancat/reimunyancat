@@ -23,7 +23,6 @@
 
 <div align="center">
   
-### 🌟 Quick Stats
   
 [![trophy](https://github-trophies.vercel.app/?username=reimunyancat&theme=radical&no-frame=true&no-bg=false&margin-w=4&column=7)](https://github.com/reimunyancat)
 

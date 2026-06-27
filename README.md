@@ -1,10 +1,10 @@
-# Hi, I'm Reimu 👋
+# Hi, I'm Reimunyancat 👋
 
-Student at Sunrin Internet High School. I like building things from scratch and figuring out how they work underneath — physics simulators, full-stack AI apps, and low-level systems.
+Student at Sunrin Internet High School. I like building things from scratch and figuring out how they work
 
 - 🌱 Currently into: Rust, low-level systems, and AI
 - 💬 Comfortable with: C++, Python, TypeScript / React
-- 📫 Reach me: Discord `reimunyancat` · lasco647@gmail.com
+- 📫 Reach me: Discord `reimunyancat` · reimunyancat@gmail.com
 
 ## Things I've built
 

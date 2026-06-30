@@ -1,4 +1,4 @@
-# Hi, I'm Reimunyancat 👋
+# Hi
 
 Student at Sunrin Internet High School. I like building things from scratch and figuring out how they work
 
